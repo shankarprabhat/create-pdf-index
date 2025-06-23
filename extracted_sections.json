@@ -1,0 +1,1732 @@
+[
+  {
+    "section_title": "Full Document",
+    "page_label": "1",
+    "content": " \n \n30 Churchill Place ● Canary Wharf ● London E14 5EU ● United Kingdom \nAn agency of the European Union     \nTelephone +44 (0)20 3660 6000 Facsimile +44 (0)20 3660 5555 \nSend a question via our website www.ema.europa.eu/contact \n \n \n© European Medicines Agency, 2018. Reproduction is authorised provided the source is acknowledged.  \n \n1 December 2016 \nEMA/CHMP/ICH/135/1995 \nCommittee for Human Medicinal Products \nGuideline for good clinical practice E6(R2) \nStep 5 \nAdopted by CHMP for release for consultation 23 July 2015 \nStart of public consultation  4 August 2015 \nEnd of consultation (deadline for comments)  3 February 2016 \nFinal adoption by CHMP 15 December 2016 \nDate for coming into effect 14 June 2017 \n \n \n  "
+  },
+  {
+    "section_title": "Full Document",
+    "page_label": "2",
+    "content": " \n \n \nGuideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 2/68 \n \n \nDocument History \n \nFirst \nCodification History Date \nNew \nCodification \nNovember \n2005 \nE6 Approval by the CPMP under Step 3 and release for \npublic consultation. \nMay 1995 E6 \nE6 Approval by the CPMP under Step 4 and released for \ninformation. \nJuly 1996 E6 \nStep 5 corrected version \nE6 Approval by the CPMP of Post-Step 4 editorial \ncorrections. \nJuly 2002 E6(R1) \nCurrent E6(R2) Addendum Step 5 version \nCode History Date \nE6 Adoption by the Regulatory Members of the ICH Assembly under \nStep 4. \nIntegrated Addendum to ICH E6(R1) document. Changes are \nintegrated directly into the following sections of the parental \nGuideline: Introduction, 1.63, 1.64, 1.65, 2.10, 2.13, 4.2.5, 4.2.6, \n4.9.0, 5.0, 5.0.1, 5.0.2, 5.0.3, 5.0.4, 5.0.5, 5.0.6, 5.0.7, 5.2.2, \n5.5.3 (a), 5.5.3 (b), 5.5.3 (h), 5.18.3, 5.18.6 (e), 5.18.7, 5.20.1, \n8.1 \n9 November \n2016 \n  "
+  },
+  {
+    "section_title": "Full Document",
+    "page_label": "3",
+    "content": " \n \n \nGuideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 3/68 \n \n \nGuideline for good clinical practice E6(R2) \nTable of contents \nIntroduction ................................................................................................ 6 \n1. Glossary .................................................................................................. 7 \n2. The principles of ICH GCP ...................................................................... 15 \n3. Institutional Review Board / Independent Ethics Committee (IRB/IEC)\n .................................................................................................................. 16 \n3.1. Responsibilities .................................................................................................. 16 \n3.2. Composition, Functions and Operations ................................................................. 18 \n3.3. Procedures ........................................................................................................ 18 \n3.4. Records ............................................................................................................. 20 \n4. Investigator .......................................................................................... 20 \n4.1. Investigator's Qualifications and Agreements ......................................................... 20 \n4.2. Adequate Resources ........................................................................................... 20 \n4.3. Medical Care of Trial Subjects .............................................................................. 21 \n4.4. Communication with IRB/IEC ............................................................................... 22 \n4.5. Compliance with Protocol .................................................................................... 22 \n4.6. Investigational Product(s) ................................................................................... 23 \n4.7. Randomization Procedures and Unblinding ............................................................. 24 \n4.8. Informed Consent of Trial Subjects ....................................................................... 24 \n4.9. Records and Reports ........................................................................................... 27 \n4.10. Progress Reports .............................................................................................. 29 \n4.11. Safety Reporting .............................................................................................. 29 \n4.12. Premature Termination or Suspension of a Trial.................................................... 29 \n4.13. Final Report(s) by Investigator ........................................................................... 30 \n5. Sponsor ................................................................................................. 30 \n5.0. Quality management .......................................................................................... 30 \n5.1. Quality assurance and quality control .................................................................... 31 \n5.2. Contract Research Organization (CRO) .................................................................. 32 \n5.3. Medical expertise ............................................................................................... 32 \n5.4. Trial design........................................................................................................ 33 \n5.5. Trial management, data handling, and record keeping ............................................ 33 \n5.6. Investigator selection.......................................................................................... 35 \n5.7. Allocation of responsibilities ................................................................................. 36 \n5.8. Compensation to subjects and investigators .......................................................... 36 \n5.9. Financing .......................................................................................................... 36 \n5.10. Notification/submission to regulatory authority(ies) .............................................. 36 \n5.11. Confirmation of review by IRB/IEC ...................................................................... 36 \n5.12. Information on investigational product(s) ............................................................ 37 \n5.13. Manufacturing, packaging, labelling, and coding investigational product(s)  .............. 37 \n5.14. Supplying and handling investigational product(s) ................................................ 38 "
+  },
+  {
+    "section_title": "Full Document",
+    "page_label": "4",
+    "content": " \n \n \nGuideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 4/68 \n \n \n5.15. Record access .................................................................................................. 39 \n5.16. Safety information ............................................................................................ 39 \n5.17. Adverse drug reaction reporting ......................................................................... 39 \n5.18. Monitoring ....................................................................................................... 40 \n5.18.1. Purpose ........................................................................................................ 40 \n5.18.2. Selection and qualifications of monitors ............................................................ 40 \n5.18.3. Extent and nature of monitoring ...................................................................... 40 \n5.18.4. Monitor's responsibilities ................................................................................. 41 \n5.18.5. Monitoring procedures .................................................................................... 43 \n5.18.6. Monitoring report ........................................................................................... 43 \n5.18.7. Monitoring plan ............................................................................................. 43 \n5.19. Audit ............................................................................................................... 43 \n5.19.1. Purpose ........................................................................................................ 43 \n5.19.2. Selection and qualification of auditors .............................................................. 44 \n5.19.3. Auditing procedures ....................................................................................... 44 \n5.20. Noncompliance ................................................................................................. 44 \n5.21. Premature termination or suspension of a trial ..................................................... 44 \n5.22. Clinical trial/study reports .................................................................................. 45 \n5.23. Multicentre trials .............................................................................................. 45 \n6. Clinical trial protocol and protocol amendment(s) ................................. 46 \n6.1. General Information ........................................................................................... 46 \n6.2. Background Information ...................................................................................... 46 \n6.3. Trial objectives and purpose ................................................................................ 47 \n6.4. Trial design........................................................................................................ 47 \n6.5. Selection and withdrawal of subjects..................................................................... 48 \n6.6. Treatment of Subjects......................................................................................... 49 \n6.7. Assessment of Efficacy ........................................................................................ 49 \n6.8. Assessment of Safety .......................................................................................... 49 \n6.9. Statistics ........................................................................................................... 50 \n6.10. Direct access to source data/documents .............................................................. 50 \n6.11. Quality control and quality assurance .................................................................. 50 \n6.12. Ethics .............................................................................................................. 50 \n6.13. Data handling and record keeping....................................................................... 51 \n6.14. Financing and insurance .................................................................................... 51 \n6.15. Publication policy .............................................................................................. 51 \n6.16. Supplements .................................................................................................... 51 \n7. Investigator’s brochure ......................................................................... 52 \n7.1. Introduction....................................................................................................... 52 \n7.2. General considerations ........................................................................................ 52 \n7.2.1. Title page ....................................................................................................... 52 \n7.2.2. Confidentiality statement .................................................................................. 53 \n7.3. Contents of the investigator’s brochure ................................................................. 53 \n7.3.1. Table of contents ............................................................................................. 53 \n7.3.2. Summary ....................................................................................................... 53 \n7.3.3. Introduction .................................................................................................... 53 "
+  },
+  {
+    "section_title": "Full Document",
+    "page_label": "5",
+    "content": " \n \n \nGuideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 5/68 \n \n \n7.3.4. Physical, chemical, and pharmaceutical properties and formulation ........................ 53 \n7.3.5. Nonclinical studies ........................................................................................... 53 \n7.3.6. Effects in humans ............................................................................................ 55 \n7.3.7. Summary of Data and Guidance for the Investigator ............................................ 56 \n7.4. Appendix 1: ....................................................................................................... 57 \n7.5. Appendix 2: ....................................................................................................... 58 \n8. Essential documents for the conduct of a clinical trial ........................... 59 \n8.1. Introduction....................................................................................................... 59 \n8.2. Before the clinical phase of the trial commences .................................................... 60 \n8.3. During the Clinical Conduct of the Trial .................................................................. 64 \n8.4. After Completion or Termination of the Trial ........................................................... 68 \n \n  "
+  },
+  {
+    "section_title": "Full Document",
+    "page_label": "6",
+    "content": " \n \n \nGuideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 6/68 \n \n \nIntroduction \nGood Clinical Practice (GCP) is an international ethical and scientific quality standard for designing, \nconducting, recording and reporting trials that involve the participation of human subjects. Compliance \nwith this standard provides public assurance that the rights, safety and well-being of trial subjects are \nprotected, consistent with the principles that have their origin in the Declaration of Helsinki, and that \nthe clinical trial data are credible. \nThe objective of this ICH GCP Guideline is to provide a unified standard for the European Union (EU), \nJapan and the United States to facilitate the mutual acceptance of clinical data by the regulatory \nauthorities in these jurisdictions. \nThe guideline was developed with consideration of the current good clinical practices of the European \nUnion, Japan, and the United States, as well as those of Australia, Canada, the Nordic countries and \nthe World Health Organization (WHO). \nThis guideline should be followed when generating clinical trial data that are intended to be submitted \nto regulatory authorities. \nThe principles established in this guideline may also be applied to other clinical investigations that may \nhave an impact on the safety and well-being of human subjects. \nADDENDUM \nSince the development of the ICH GCP Guideline, the scale, complexity, and cost of clinical trials have \nincreased. Evolutions in technology and risk management processes offer new opportunities to \nincrease efficiency and focus on relevant activities. When the original ICH E6(R1) text was prepared, \nclinical trials were performed in a largely paper-based process. Advances in use of electronic data \nrecording and reporting facilitate implementation of other approaches. For example, centralized \nmonitoring can now offer a greater advantage, to a broader range of trials than is suggested in the \noriginal text. Therefore, this guideline has been amended to encourage implementation of improved \nand more efficient approaches to clinical trial design, conduct, oversight, recording and reporting while \ncontinuing to ensure human subject protection and reliability of trial results. Standards regarding \nelectronic records and essential documents intended to increase clinical trial quality and efficiency have \nalso been updated. \nThis guideline should be read in conjunction with other ICH guidelines relevant to the conduct of \nclinical trials (e.g., E2A (clinical safety data management), E3 (clinical study reporting), E7 (geriatric \npopulations), E8 (general considerations for clinical trials), E9 (statistical principles), and E11 (pediatric \npopulations)). \nThis ICH GCP Guideline Integrated Addendum provides a unified standard for the European Union, \nJapan, the United States, Canada, and Switzerland to facilitate the mutual acceptance of data from \nclinical trials by the regulatory authorities in these jurisdictions. In the event of any conflict between \nthe E6(R1) text and the E6(R2) addendum text, the E6(R2) addendum text should take priority. \n  "
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "7",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 7/68"
+  },
+  {
+    "section_title": "1.  Glossary",
+    "page_label": "7",
+    "content": "1.1.  Adverse Drug Reaction (ADR) \nIn the pre-approval clinical experience with a new medicinal product or its new usages, particularly as \nthe therapeutic dose(s) may not be established: all noxious and unintended responses to a medicinal \nproduct related to any dose should be considered adverse drug reactions. The phrase responses to a \nmedicinal product means that a causal relationship between a medicinal product and an adverse event \nis at least a reasonable possibility, i.e. the relationship cannot be ruled out. \nRegarding marketed medicinal products: a response to a drug which is noxious and unintended and \nwhich occurs at doses normally used in man for prophylaxis, diagnosis, or therapy of diseases or for \nmodification of physiological function (see the ICH Guideline for Clinical Safety Data Management: \nDefinitions and Standards for Expedited Reporting). \n1.2.  Adverse Event (AE) \nAny untoward medical occurrence in a patient or clinical investigation subject administered a \npharmaceutical product and which does not necessarily have a causal relationship with this treatment. \nAn adverse event (AE) can therefore be any unfavourable and unintended sign (including an abnormal \nlaboratory finding), symptom, or disease temporally associated with the use of a medicinal \n(investigational) product, whether or not related to the medicinal (investigational) product (see the \nICH Guideline for Clinical Safety Data Management: Definitions and Standards for Expedited \nReporting). \n1.3.  Amendment (to the protocol) \nSee Protocol Amendment. \n1.4.  Applicable regulatory requirement(s) \nAny law(s) and regulation(s) addressing the conduct of clinical trials of investigational products. \n1.5.  Approval (in relation to institutional review boards) \nThe affirmative decision of the IRB that the clinical trial has been reviewed and may be conducted at \nthe institution site within the constraints set forth by the IRB, the institution, Good Clinical Practice \n(GCP), and the applicable regulatory requirements."
+  },
+  {
+    "section_title": "1.6.  Audit \nA systematic and independent examination of trial related activities and documents to determine",
+    "page_label": "7",
+    "content": "whether the evaluated trial related activities were conducted, and the data were recorded, analyzed \nand accurately reported according to the protocol, sponsor's standard operating procedures (SOPs), \nGood Clinical Practice (GCP), and the applicable regulatory requirement(s)."
+  },
+  {
+    "section_title": "1.7.  Audit certificate",
+    "page_label": "7",
+    "content": "A declaration of confirmation by the auditor that an audit has taken place."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "8",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 8/68"
+  },
+  {
+    "section_title": "1.8.  Audit report",
+    "page_label": "8",
+    "content": "A written evaluation by the sponsor's auditor of the results of the audit."
+  },
+  {
+    "section_title": "1.9.   Audit trail",
+    "page_label": "8",
+    "content": "Documentation that allows reconstruction of the course of events.  \n1.10.  Blinding/masking \nA procedure in which one or more parties to the trial are kept unaware of the treatment assignment(s). \nSingle-blinding usually refers to the subject(s) being unaware, and double-blinding usually refers to \nthe subject(s), investigator(s), monitor, and, in some cases, data analyst(s) being unaware of the \ntreatment assignment(s). \n1.11.  Case Report Form (CRF) \nA printed, optical, or electronic document designed to record all of the protocol required information to \nbe reported to the sponsor on each trial subject. \n1.12.  Clinical trial/study \nAny investigation in human subjects intended to discover or verify the clinical, pharmacological and/or \nother pharmacodynamic effects of an investigational product(s), and/or to identify any adverse \nreactions to an investigational product(s), and/or to study absorption, distribution, metabolism, and \nexcretion of an investigational product(s) with the object of ascertaining its safety and/or efficacy. The \nterms clinical trial and clinical study are synonymous. \n1.13.  Clinical trial/study report \nA written description of a trial/study of any therapeutic, prophylactic, or diagnostic agent conducted in \nhuman subjects, in which the clinical and statistical description, presentations, and analyses are fully \nintegrated into a single report (see the ICH Guideline for Structure and Content of Clinical Study \nReports). \n1.14.  Comparator (Product) \nAn investigational or marketed product (i.e., active control), or placebo, used as a reference in a \nclinical trial. \n1.15.  Compliance (in relation to trials) \nAdherence to all the trial-related requirements, Good Clinical Practice (GCP)requirements, and the \napplicable regulatory requirements."
+  },
+  {
+    "section_title": "1.16.  Confidentiality",
+    "page_label": "8",
+    "content": "Prevention of disclosure, to other than authorized individuals, of a sponsor's proprietary information or \nof a subject's identity."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "9",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 9/68"
+  },
+  {
+    "section_title": "1.17.  Contract",
+    "page_label": "9",
+    "content": "A written, dated, and signed agreement between two or more involved parties that sets out any \narrangements on delegation and distribution of tasks and obligations and, if appropriate, on financial \nmatters. The protocol may serve as the basis of a contract."
+  },
+  {
+    "section_title": "1.18.  Coordinating committee",
+    "page_label": "9",
+    "content": "A committee that a sponsor may organize to coordinate the conduct of a multicentre trial."
+  },
+  {
+    "section_title": "1.19.  Coordinating investigator \nAn investigator assigned the responsibility for the coordination of investigators at different centres",
+    "page_label": "9",
+    "content": "participating in a multicentre trial. \n1.20.  Contract Research Organization (CRO) \nA person or an organization (commercial, academic, or other) contracted by the sponsor to perform \none or more of a sponsor's trial-related duties and functions."
+  },
+  {
+    "section_title": "1.21.  Direct access",
+    "page_label": "9",
+    "content": "Permission to examine, analyze, verify, and reproduce any records and reports that are important to \nevaluation of a clinical trial. Any party (e.g., domestic and foreign regulatory authorities, sponsor's \nmonitors and auditors) with direct access should take all reasonable precautions within the constraints \nof the applicable regulatory requirement(s) to maintain the confidentiality of subjects' identities and \nsponsor’s proprietary information."
+  },
+  {
+    "section_title": "1.22.  Documentation",
+    "page_label": "9",
+    "content": "All records, in any form (including, but not limited to, written, electronic, magnetic, and optical \nrecords, and scans, x-rays, and electrocardiograms) that describe or record the methods, conduct, \nand/or results of a trial, the factors affecting a trial, and the actions taken."
+  },
+  {
+    "section_title": "1.23.  Essential documents \nDocuments which individually and collectively permit evaluation of the conduct of a study and the",
+    "page_label": "9",
+    "content": "quality of the data produced (see 8. Essential Documents for the Conduct of a Clinical Trial). \n1.24.  Good Clinical Practice (GCP) \nA standard for the design, conduct, performance, monitoring, auditing, recording, analyses, and \nreporting of clinical trials that provides assurance that the data and reported results are credible and \naccurate, and that the rights, integrity, and confidentiality of trial subjects are protected. \n1.25.  Independent Data-Monitoring Committee (IDMC) (data and safety \nmonitoring board, monitoring committee, data monitoring committee) \nAn independent data-monitoring committee that may be established by the sponsor to assess at \nintervals the progress of a clinical trial, the safety data, and the critical efficacy endpoints, and to \nrecommend to the sponsor whether to continue, modify, or stop a trial."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "10",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 10/68"
+  },
+  {
+    "section_title": "1.26.  Impartial witness",
+    "page_label": "10",
+    "content": "A person, who is independent of the trial, who cannot be unfairly influenced by people involved with \nthe trial, who attends the informed consent process if the subject or the subject’s legally acceptable \nrepresentative cannot read, and who reads the informed consent form and any other written \ninformation supplied to the subject. \n1.27.  Independent Ethics Committee (IEC) \nAn independent body (a review board or a committee, institutional, regional, national, or \nsupranational), constituted of medical professionals and non-medical members, whose responsibility it \nis to ensure the protection of the rights, safety and well-being of human subjects involved in a trial and \nto provide public assurance of that protection, by, among other things, reviewing and approving / \nproviding favourable opinion on, the trial protocol, the suitability of the investigator(s), facilities, and \nthe methods and material to be used in obtaining and documenting informed consent of the trial \nsubjects. \nThe legal status, composition, function, operations and regulatory requirements pertaining to \nIndependent Ethics Committees may differ among countries, but should allow the Independent Ethics \nCommittee to act in agreement with GCP as described in this guideline."
+  },
+  {
+    "section_title": "1.28.  Informed consent \nA process by which a subject voluntarily confirms his or her willingness to participate in a particular",
+    "page_label": "10",
+    "content": "trial, after having been informed of all aspects of the trial that are relevant to the subject's decision to \nparticipate. Informed consent is documented by means of a written, signed and dated informed \nconsent form."
+  },
+  {
+    "section_title": "1.29.  Inspection",
+    "page_label": "10",
+    "content": "The act by a regulatory authority(ies) of conducting an official review of documents, facilities, records, \nand any other resources that are deemed by the authority(ies) to be related to the clinical trial and \nthat may be located at the site of the trial, at the sponsor's and/or contract research organization’s \n(CRO’s) facilities, or at other establishments deemed appropriate by the regulatory authority(ies). \n1.30.  Institution (medical) \nAny public or private entity or agency or medical or dental facility where clinical trials are conducted. \n1.31.  Institutional Review Board (IRB) \nAn independent body constituted of medical, scientific, and non-scientific members, whose \nresponsibility is to ensure the protection of the rights, safety and well-being of human subjects \ninvolved in a trial by, among other things, reviewing, approving, and providing continuing review of \ntrial protocol and amendments and of the methods and material to be used in obtaining and \ndocumenting informed consent of the trial subjects. \n1.32.  Interim clinical trial/study report \nA report of intermediate results and their evaluation based on analyses performed during the course of \na trial."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "11",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 11/68"
+  },
+  {
+    "section_title": "1.33.  Investigational product \nA pharmaceutical form of an active ingredient or placebo being tested or used as a reference in a",
+    "page_label": "11",
+    "content": "clinical trial, including a product with a marketing authorization when used or assembled (formulated \nor packaged) in a way different from the approved form, or when used for an unapproved indication, or \nwhen used to gain further information about an approved use."
+  },
+  {
+    "section_title": "1.34.  Investigator",
+    "page_label": "11",
+    "content": "A person responsible for the conduct of the clinical trial at a trial site. If a trial is conducted by a team \nof individuals at a trial site, the investigator is the responsible leader of the team and may be called \nthe principal investigator. See also Subinvestigator. \n1.35.  Investigator / institution \nAn expression meaning \"the investigator and/or institution, where required by the applicable \nregulatory requirements\". \n1.36.  Investigator's brochure \nA compilation of the clinical and nonclinical data on the investigational product(s) which is relevant to \nthe study of the investigational product(s) in human subjects (see 7. Investigator’s Brochure)."
+  },
+  {
+    "section_title": "1.37.  Legally acceptable representative",
+    "page_label": "11",
+    "content": "An individual or juridical or other body authorized under applicable law to consent, on behalf of a \nprospective subject, to the subject's participation in the clinical trial."
+  },
+  {
+    "section_title": "1.38.  Monitoring",
+    "page_label": "11",
+    "content": "The act of overseeing the progress of a clinical trial, and of ensuring that it is conducted, recorded, and \nreported in accordance with the protocol, Standard Operating Procedures (SOPs), Good Clinical Practice \n(GCP), and the applicable regulatory requirement(s)."
+  },
+  {
+    "section_title": "1.39.  Monitoring report",
+    "page_label": "11",
+    "content": "A written report from the monitor to the sponsor after each site visit and/or other trial-related \ncommunication according to the sponsor’s SOPs."
+  },
+  {
+    "section_title": "1.40.  Multicentre trial",
+    "page_label": "11",
+    "content": "A clinical trial conducted according to a single protocol but at more than one site, and therefore, \ncarried out by more than one investigator."
+  },
+  {
+    "section_title": "1.41.  Nonclinical study",
+    "page_label": "11",
+    "content": "Biomedical studies not performed on human subjects. \n1.42.  Opinion (in relation to independent ethics committee) \nThe judgement and/or the advice provided by an Independent Ethics Committee (IEC)."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "12",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 12/68"
+  },
+  {
+    "section_title": "1.43.  Original medical record",
+    "page_label": "12",
+    "content": "See Source Documents."
+  },
+  {
+    "section_title": "1.44.  Protocol",
+    "page_label": "12",
+    "content": "A document that describes the objective(s), design, methodology, statistical considerations, and \norganization of a trial. The protocol usually also gives the background and rationale for the trial, but \nthese could be provided in other protocol referenced documents. Throughout the ICH GCP Guideline \nthe term protocol refers to protocol and protocol amendments."
+  },
+  {
+    "section_title": "1.45.  Protocol amendment",
+    "page_label": "12",
+    "content": "A written description of a change(s) to or formal clarification of a protocol. \n1.46.  Quality Assurance (QA) \nAll those planned and systematic actions that are established to ensure that the trial is performed and \nthe data are generated, documented (recorded), and reported in compliance with Good Clinical Practice \n(GCP) and the applicable regulatory requirement(s). \n1.47.  Quality Control (QC) \nThe operational techniques and activities undertaken within the quality assurance system to verify that \nthe requirements for quality of the trial-related activities have been fulfilled."
+  },
+  {
+    "section_title": "1.48.  Randomization \nThe process of assigning trial subjects to treatment or control groups using an element of chance to",
+    "page_label": "12",
+    "content": "determine the assignments in order to reduce bias."
+  },
+  {
+    "section_title": "1.49.  Regulatory authorities",
+    "page_label": "12",
+    "content": "Bodies having the power to regulate. In the ICH GCP guideline the expression Regulatory Authorities \nincludes the authorities that review submitted clinical data and those that conduct inspections (see \n1.29). These bodies are sometimes referred to as competent authorities. \n1.50.  Serious Adverse Event (SAE) or Serious Adverse Drug Reaction \n(Serious ADR) \nAny untoward medical occurrence that at any dose: \n results in death, \n is life-threatening, \n requires inpatient hospitalization or prolongation of existing hospitalization, \n results in persistent or significant disability/incapacity,  \nor \n is a congenital anomaly/birth defect"
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "13",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 13/68 \n \n \n(see the ICH Guideline for Clinical Safety Data Management: Definitions and Standards for Expedited \nReporting)."
+  },
+  {
+    "section_title": "1.51.  Source data",
+    "page_label": "13",
+    "content": "All information in original records and certified copies of original records of clinical findings, \nobservations, or other activities in a clinical trial necessary for the reconstruction and evaluation of the \ntrial. Source data are contained in source documents (original records or certified copies)."
+  },
+  {
+    "section_title": "1.52.  Source documents",
+    "page_label": "13",
+    "content": "Original documents, data, and records (e.g., hospital records, clinical and office charts, laboratory \nnotes, memoranda, subjects' diaries or evaluation checklists, pharmacy dispensing records, recorded \ndata from automated instruments, copies or transcriptions certified after verification as being accurate \ncopies, microfiches, photographic negatives, microfilm or magnetic media, x-rays, subject files, and \nrecords  kept  at  the  pharmacy, at  the  laboratories and  at  medico-technical departments involved \nin the clinical trial)."
+  },
+  {
+    "section_title": "1.53.  Sponsor",
+    "page_label": "13",
+    "content": "An individual, company, institution, or organization which takes responsibility for the initiation, \nmanagement, and/or financing of a clinical trial. \n1.54.  Sponsor-Investigator \nAn individual who both initiates and conducts, alone or with others, a clinical trial, and under whose \nimmediate direction the investigational product is administered to, dispensed to, or used by a subject. \nThe term does not include any person other than an individual (e.g., it does not include a corporation \nor an agency). The obligations of a sponsor-investigator include both those of a sponsor and those of \nan investigator. \n1.55.  Standard Operating Procedures (SOPs) \nDetailed, written instructions to achieve uniformity of the performance of a specific function."
+  },
+  {
+    "section_title": "1.56.  Subinvestigator \nAny individual member of the clinical trial team designated and supervised by the investigator at a trial",
+    "page_label": "13",
+    "content": "site to perform critical trial-related procedures and/or to make important trial-related decisions (e.g., \nassociates, residents, research fellows). See also Investigator. \n1.57.  Subject/trial subject \nAn individual who participates in a clinical trial, either as a recipient of the investigational product(s) or \nas a control."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "14",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 14/68"
+  },
+  {
+    "section_title": "1.58.  Subject identification code",
+    "page_label": "14",
+    "content": "A unique identifier assigned by the investigator to each trial subject to protect the subject's identity \nand used in lieu of the subject's name when the investigator reports adverse events and/or other trial \nrelated data."
+  },
+  {
+    "section_title": "1.59.  Trial site",
+    "page_label": "14",
+    "content": "The location(s) where trial-related activities are actually conducted."
+  },
+  {
+    "section_title": "1.60.  Unexpected adverse drug reaction",
+    "page_label": "14",
+    "content": "An adverse reaction, the nature or severity of which is not consistent with the applicable product \ninformation (e.g., Investigator's Brochure for an unapproved investigational product or package \ninsert/summary of product characteristics for an approved product) (see the ICH Guideline for Clinical \nSafety Data Management: Definitions and Standards for Expedited Reporting)."
+  },
+  {
+    "section_title": "1.61.  Vulnerable subjects \nIndividuals whose willingness to volunteer in a clinical trial may be unduly influenced by the",
+    "page_label": "14",
+    "content": "expectation, whether justified or not, of benefits associated with participation, or of a retaliatory \nresponse from senior members of a hierarchy in case of refusal to participate. Examples are members \nof a group with a hierarchical structure, such as medical, pharmacy, dental, and nursing students, \nsubordinate hospital and laboratory personnel, employees of the pharmaceutical industry, members of \nthe armed forces, and persons kept in detention. Other vulnerable subjects include patients with \nincurable diseases, persons in nursing homes, unemployed or impoverished persons, patients in \nemergency situations, ethnic minority groups, homeless persons, nomads, refugees, minors, and those \nincapable of giving consent. \n1.62.  Well-being (of the trial subjects) \nThe physical and mental integrity of the subjects participating in a clinical trial. \nADDENDUM"
+  },
+  {
+    "section_title": "1.63.  Certified Copy",
+    "page_label": "14",
+    "content": "A copy (irrespective of the type of media used) of the original record that has been verified (i.e., by a \ndated signature or by generation through a validated process) to have the same information, including \ndata that describe the context, content, and structure, as the original."
+  },
+  {
+    "section_title": "1.64.  Monitoring Plan",
+    "page_label": "14",
+    "content": "A document that describes the strategy, methods, responsibilities, and requirements for monitoring the \ntrial."
+  },
+  {
+    "section_title": "1.65.  Validation of Computerized Systems \nA process of establishing and documenting that the specified requirements of a computerized system \ncan be consistently fulfilled from design until decommissioning of the system or transition to a new",
+    "page_label": "14",
+    "content": "system. The approach to validation should be based on a risk assessment that takes into consideration"
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "15",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 15/68 \n \n \nthe intended use of the system and the potential of the system to affect human subject protection and \nreliability of trial results."
+  },
+  {
+    "section_title": "2.1.   \nClinical trials should be conducted in accordance with the ethical principles that have their origin in the",
+    "page_label": "15",
+    "content": "Declaration of Helsinki, and that are consistent with GCP and the applicable regulatory requirement(s)."
+  },
+  {
+    "section_title": "2.2.",
+    "page_label": "15",
+    "content": "Before a trial is initiated, foreseeable risks and inconveniences should be weighed against the \nanticipated benefit for the individual trial subject and society. A trial should be initiated and continued \nonly if the anticipated benefits justify the risks."
+  },
+  {
+    "section_title": "2.3.",
+    "page_label": "15",
+    "content": "The rights, safety, and well-being of the trial subjects are the most important considerations and \nshould prevail over interests of science and society."
+  },
+  {
+    "section_title": "2.4.   \nThe available nonclinical and clinical information on an investigational product should be adequate to",
+    "page_label": "15",
+    "content": "support the proposed clinical trial."
+  },
+  {
+    "section_title": "2.5.",
+    "page_label": "15",
+    "content": "Clinical trials should be scientifically sound, and described in a clear, detailed protocol."
+  },
+  {
+    "section_title": "2.6.   \nA trial should be conducted in compliance with the protocol that has received prior institutional review",
+    "page_label": "15",
+    "content": "board (IRB)/independent ethics committee (IEC) approval/favourable opinion."
+  },
+  {
+    "section_title": "2.7.",
+    "page_label": "15",
+    "content": "The medical care given to, and medical decisions made on behalf of, subjects should always be the \nresponsibility of a qualified physician or, when appropriate, of a qualified dentist."
+  },
+  {
+    "section_title": "2.8.",
+    "page_label": "15",
+    "content": "Each individual involved in conducting a trial should be qualified by education, training, and experience \nto perform his or her respective task(s)."
+  },
+  {
+    "section_title": "2.9.",
+    "page_label": "15",
+    "content": "Freely given informed consent should be obtained from every subject prior to clinical trial participation."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "16",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 16/68"
+  },
+  {
+    "section_title": "2.10.",
+    "page_label": "16",
+    "content": "All clinical trial information should be recorded, handled, and stored in a way that allows its accurate \nreporting, interpretation and verification.  \nADDENDUM \nThis principle applies to all records referenced in this guideline, irrespective of the type of media used."
+  },
+  {
+    "section_title": "2.11.",
+    "page_label": "16",
+    "content": "The confidentiality of records that could identify subjects should be protected, respecting the privacy \nand confidentiality rules in accordance with the applicable regulatory requirement(s)."
+  },
+  {
+    "section_title": "2.12.",
+    "page_label": "16",
+    "content": "Investigational products should be manufactured, handled, and stored in accordance with applicable \ngood manufacturing practice (GMP). They should be used in accordance with the approved protocol."
+  },
+  {
+    "section_title": "2.13.",
+    "page_label": "16",
+    "content": "Systems with procedures that assure the quality of every aspect of the trial should be implemented. \nADDENDUM \nAspects of the trial that are essential to ensure human subject protection and reliability of trial results \nshould be the focus of such systems. \n3.  Institutional Review Board / Independent Ethics \nCommittee (IRB/IEC)"
+  },
+  {
+    "section_title": "3.1.1.",
+    "page_label": "16",
+    "content": "An IRB/IEC should safeguard the rights, safety, and well-being of all trial subjects. Special attention \nshould be paid to trials that may include vulnerable subjects."
+  },
+  {
+    "section_title": "3.1.2.",
+    "page_label": "16",
+    "content": "The IRB/IEC should obtain the following documents: \n trial protocol(s)/amendment(s), written informed consent form(s) and consent form updates that \nthe investigator proposes for use in the trial, subject recruitment procedures (e.g. \nadvertisements), written information to be provided to subjects, Investigator's Brochure (IB), \navailable safety information, information about payments and compensation available to subjects, \nthe investigator’s current curriculum vitae and/or other documentation evidencing qualifications, \nand any other documents that the IRB/IEC may need to fulfil its responsibilities. \n The IRB/IEC should review a proposed clinical trial within a reasonable time and document its \nviews in writing, clearly identifying the trial, the documents reviewed and the dates for the \nfollowing:"
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "17",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 17/68 \n \n \n approval/favourable opinion; \n modifications required prior to its approval/favourable opinion; \n disapproval / negative opinion; and \n termination/suspension of any prior approval/favourable opinion."
+  },
+  {
+    "section_title": "3.1.3.",
+    "page_label": "17",
+    "content": "The IRB/IEC should consider the qualifications of the investigator for the proposed trial, as documented \nby a current curriculum vitae and/or by any other relevant documentation the IRB/IEC requests."
+  },
+  {
+    "section_title": "3.1.4.",
+    "page_label": "17",
+    "content": "The IRB/IEC should conduct continuing review of each ongoing trial at intervals appropriate to the \ndegree of risk to human subjects, but at least once per year."
+  },
+  {
+    "section_title": "3.1.5.",
+    "page_label": "17",
+    "content": "The IRB/IEC may request more information than is outlined in paragraph 4.8.10 be given to subjects \nwhen, in the judgement of the IRB/IEC, the additional information would add meaningfully to the \nprotection of the rights, safety and/or well-being of the subjects."
+  },
+  {
+    "section_title": "3.1.6.",
+    "page_label": "17",
+    "content": "When a non-therapeutic trial is to be carried out with the consent of the subject’s legally acceptable \nrepresentative (see 4.8.12, 4.8.14), the IRB/IEC should determine that the proposed protocol and/or \nother document(s) adequately addresses  relevant  ethical  concerns  and  meets  applicable \nregulatory requirements for such trials."
+  },
+  {
+    "section_title": "3.1.7.",
+    "page_label": "17",
+    "content": "Where the protocol indicates that prior consent of the trial subject or the subject’s legally acceptable \nrepresentative is not possible (see 4.8.15), the IRB/IEC should determine that the proposed protocol \nand/or other document(s) adequately addresses  relevant  ethical  concerns  and  meets  applicable \nregulatory requirements for such trials (i.e. in emergency situations)."
+  },
+  {
+    "section_title": "3.1.8.",
+    "page_label": "17",
+    "content": "The IRB/IEC should review both the amount and method of payment to subjects to assure that neither \npresents problems of coercion or undue influence on the trial subjects. Payments to a subject should \nbe prorated and not wholly contingent on completion of the trial by the subject."
+  },
+  {
+    "section_title": "3.1.9.",
+    "page_label": "17",
+    "content": "The IRB/IEC should ensure that information regarding payment to subjects, including the methods, \namounts, and schedule of payment to trial subjects, is set forth in the written informed consent form \nand any other written information to be provided to subjects. The way payment will be prorated should \nbe specified."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "18",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 18/68 \n \n \n3.2.  Composition, Functions and Operations"
+  },
+  {
+    "section_title": "3.2.1.",
+    "page_label": "18",
+    "content": "The IRB/IEC should consist of a reasonable number of members, who collectively have the \nqualifications and experience to review and evaluate the science, medical aspects, and ethics of the \nproposed trial. It is recommended that the IRB/IEC should include: \na) At least five members. \nb) At least one member whose primary area of interest is in a nonscientific area. \nc) At least one member who is independent of the institution/trial site. \nOnly those IRB/IEC members who are independent of the investigator and the sponsor of the trial \nshould vote/provide opinion on a trial-related matter. \nA list of IRB/IEC members and their qualifications should be maintained."
+  },
+  {
+    "section_title": "3.2.2.",
+    "page_label": "18",
+    "content": "The IRB/IEC should perform its functions according to written operating procedures, should maintain \nwritten records of its activities and minutes of its meetings, and should comply with GCP and with the \napplicable regulatory requirement(s)."
+  },
+  {
+    "section_title": "3.2.3.",
+    "page_label": "18",
+    "content": "An IRB/IEC should make its decisions at announced meetings at which at least a quorum, as stipulated \nin its written operating procedures, is present."
+  },
+  {
+    "section_title": "3.2.4.",
+    "page_label": "18",
+    "content": "Only members who participate in the IRB/IEC review and discussion should vote/provide their opinion \nand/or advise."
+  },
+  {
+    "section_title": "3.2.5.",
+    "page_label": "18",
+    "content": "The investigator may provide information on any aspect of the trial, but should not participate in the \ndeliberations of the IRB/IEC or in the vote/opinion of the IRB/IEC."
+  },
+  {
+    "section_title": "3.2.6.",
+    "page_label": "18",
+    "content": "An IRB/IEC may invite nonmembers with expertise in special areas for assistance."
+  },
+  {
+    "section_title": "3.3.  Procedures",
+    "page_label": "18",
+    "content": "The IRB/IEC should establish, document in writing, and follow its procedures, which should include:"
+  },
+  {
+    "section_title": "3.3.1.",
+    "page_label": "18",
+    "content": "Determining its composition (names and qualifications of the members) and the authority under which \nit is established."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "19",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 19/68"
+  },
+  {
+    "section_title": "3.3.2.",
+    "page_label": "19",
+    "content": "Scheduling, notifying its members of, and conducting its meetings."
+  },
+  {
+    "section_title": "3.3.3.",
+    "page_label": "19",
+    "content": "Conducting initial and continuing review of trials."
+  },
+  {
+    "section_title": "3.3.4.",
+    "page_label": "19",
+    "content": "Determining the frequency of continuing review, as appropriate."
+  },
+  {
+    "section_title": "3.3.5.",
+    "page_label": "19",
+    "content": "Providing, according to the applicable regulatory requirements, expedited review and \napproval/favourable opinion of minor change(s) in ongoing trials that have the approval/favourable \nopinion of the IRB/IEC."
+  },
+  {
+    "section_title": "3.3.6.",
+    "page_label": "19",
+    "content": "Specifying that no subject should be admitted to a trial before the IRB/IEC issues its written \napproval/favourable opinion of the trial."
+  },
+  {
+    "section_title": "3.3.7.",
+    "page_label": "19",
+    "content": "Specifying that no deviations from, or changes of, the protocol should be initiated without prior written \nIRB/IEC approval/favourable opinion of an appropriate amendment, except when necessary to \neliminate immediate hazards to the subjects or when the change(s) involves only logistical or \nadministrative aspects of the trial (e.g., change of monitor(s), telephone number(s)) (see 4.5.2)."
+  },
+  {
+    "section_title": "3.3.8.",
+    "page_label": "19",
+    "content": "Specifying that the investigator should promptly report to the IRB/IEC: \na) Deviations from, or changes of, the protocol to eliminate immediate hazards to the trial subjects \n(see 3.3.7, 4.5.2, 4.5.4). \nb) Changes increasing the risk to subjects and/or affecting significantly the conduct of the trial (see \n4.10.2). \nc) All adverse drug reactions (ADRs) that are both serious and unexpected. \nd) New information that may affect adversely the safety of the subjects or the conduct of the trial."
+  },
+  {
+    "section_title": "3.3.9.",
+    "page_label": "19",
+    "content": "Ensuring that the IRB/IEC promptly notify in writing the investigator/institution concerning: \na) Its trial-related decisions/opinions. \nb) The reasons for its decisions/opinions. \nc) Procedures for appeal of its decisions/opinions."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "20",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 20/68"
+  },
+  {
+    "section_title": "3.4.  Records",
+    "page_label": "20",
+    "content": "The IRB/IEC should retain all relevant records (e.g., written procedures, membership lists, lists of \noccupations/affiliations of members, submitted documents, minutes of meetings, and correspondence) \nfor a period of at least 3 years after completion of the trial and make them available upon request from \nthe regulatory authority(ies). \nThe IRB/IEC may be asked by investigators, sponsors or regulatory authorities to provide its written \nprocedures and membership lists."
+  },
+  {
+    "section_title": "4.  Investigator",
+    "page_label": "20",
+    "content": "4.1.  Investigator's Qualifications and Agreements"
+  },
+  {
+    "section_title": "4.1.1.",
+    "page_label": "20",
+    "content": "The investigator(s) should be qualified by education, training, and experience to assume responsibility \nfor the proper conduct of the trial, should meet all the qualifications specified by the applicable \nregulatory requirement(s), and should provide evidence of such qualifications through up-to-date \ncurriculum vitae and/or other relevant documentation requested by the sponsor, the IRB/IEC, and/or \nthe regulatory authority(ies)."
+  },
+  {
+    "section_title": "4.1.2.   \nThe investigator should be thoroughly familiar with the appropriate use of the investigational",
+    "page_label": "20",
+    "content": "product(s), as described in the protocol, in the current Investigator's Brochure, in the product \ninformation and in other information sources provided by the sponsor."
+  },
+  {
+    "section_title": "4.1.3.",
+    "page_label": "20",
+    "content": "The investigator should be aware of, and should comply with, GCP and the applicable regulatory \nrequirements."
+  },
+  {
+    "section_title": "4.1.4.",
+    "page_label": "20",
+    "content": "The investigator/institution should permit monitoring and auditing by the sponsor, and inspection by \nthe appropriate regulatory authority(ies)."
+  },
+  {
+    "section_title": "4.1.5.   \nThe investigator should maintain a list of appropriately qualified persons to whom the investigator has",
+    "page_label": "20",
+    "content": "delegated significant trial-related duties."
+  },
+  {
+    "section_title": "4.2.1.",
+    "page_label": "20",
+    "content": "The investigator should be able to demonstrate (e.g., based on retrospective data) a potential for \nrecruiting the required number of suitable subjects within the agreed recruitment period."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "21",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 21/68"
+  },
+  {
+    "section_title": "4.2.2.   \nThe investigator should have sufficient time to properly conduct and complete the trial within the",
+    "page_label": "21",
+    "content": "agreed trial period."
+  },
+  {
+    "section_title": "4.2.3.   \nThe investigator should have available an adequate number of qualified staff and adequate facilities for",
+    "page_label": "21",
+    "content": "the foreseen duration of the trial to conduct the trial properly and safely."
+  },
+  {
+    "section_title": "4.2.4.   \nThe investigator should ensure that all persons assisting with the trial are adequately informed about",
+    "page_label": "21",
+    "content": "the protocol, the investigational product(s), and their trial-related duties and functions. \nADDENDUM"
+  },
+  {
+    "section_title": "4.2.5.   \nThe investigator is responsible for supervising any individual or party to whom the investigator",
+    "page_label": "21",
+    "content": "delegates trial-related duties and functions conducted at the trial site."
+  },
+  {
+    "section_title": "4.2.6.",
+    "page_label": "21",
+    "content": "If the investigator/institution retains the services of any individual or party to perform trial-related \nduties and functions, the investigator/institution should ensure this individual or party is qualified to \nperform those trial-related duties and functions and should implement procedures to ensure the \nintegrity of the trial-related duties and functions performed and any data generated."
+  },
+  {
+    "section_title": "4.3.1.",
+    "page_label": "21",
+    "content": "A qualified physician (or dentist, when appropriate), who is an investigator or a sub-investigator for the \ntrial, should be responsible for all trial-related medical (or dental) decisions."
+  },
+  {
+    "section_title": "4.3.2.",
+    "page_label": "21",
+    "content": "During  and  following  a  subject's  participation  in  a  trial,  the investigator/institution should ensure \nthat adequate medical care is provided to a subject for any adverse events, including clinically \nsignificant laboratory values, related to the trial. The investigator/institution should inform a subject \nwhen medical care is needed for intercurrent illness(es) of which the investigator becomes aware."
+  },
+  {
+    "section_title": "4.3.3.",
+    "page_label": "21",
+    "content": "It is recommended that the investigator inform the subject's primary physician about the subject's \nparticipation in the trial if the subject has a primary physician and if the subject agrees to the primary \nphysician being informed."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "22",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 22/68"
+  },
+  {
+    "section_title": "4.3.4.",
+    "page_label": "22",
+    "content": "Although a subject is not obliged to give his/her reason(s) for withdrawing prematurely from a trial, \nthe investigator should make a reasonable effort to ascertain the reason(s), while fully respecting the \nsubject's rights. \n4.4.  Communication with IRB/IEC"
+  },
+  {
+    "section_title": "4.4.1.",
+    "page_label": "22",
+    "content": "Before initiating a trial, the investigator/institution should have written and dated approval/favourable \nopinion from the IRB/IEC for the trial protocol, written informed consent form, consent form updates, \nsubject recruitment procedures (e.g., advertisements), and any other written information to be \nprovided to subjects."
+  },
+  {
+    "section_title": "4.4.2.",
+    "page_label": "22",
+    "content": "As part of the investigator's/institution’s written application to the IRB/IEC, the investigator/institution \nshould provide the IRB/IEC with a current copy of the Investigator's Brochure. If the Investigator's \nBrochure is updated during the trial, the investigator/institution should supply a copy of the updated \nInvestigator’s Brochure to the IRB/IEC."
+  },
+  {
+    "section_title": "4.4.3.",
+    "page_label": "22",
+    "content": "During the trial the investigator/institution should provide to the IRB/IEC all documents subject to \nreview."
+  },
+  {
+    "section_title": "4.5.1.",
+    "page_label": "22",
+    "content": "The investigator/institution should conduct the trial in compliance with the protocol agreed to by the \nsponsor and, if required, by the regulatory authority(ies) and which was given approval/favourable \nopinion by the IRB/IEC. The investigator/institution and the sponsor should sign the protocol, or an \nalternative contract, to confirm agreement."
+  },
+  {
+    "section_title": "4.5.2.",
+    "page_label": "22",
+    "content": "The investigator should not implement any deviation from, or changes of the protocol without \nagreement by the sponsor and prior review and documented approval/favourable opinion from the \nIRB/IEC of an amendment, except where necessary to eliminate an immediate hazard(s) to trial \nsubjects, or when the change(s) involves only logistical or administrative aspects of the trial (e.g., \nchange in monitor(s), change of telephone number(s))."
+  },
+  {
+    "section_title": "4.5.3.",
+    "page_label": "22",
+    "content": "The investigator, or person designated by the investigator, should document and explain any deviation \nfrom the approved protocol."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "23",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 23/68"
+  },
+  {
+    "section_title": "4.5.4.",
+    "page_label": "23",
+    "content": "The investigator may implement a deviation from, or a change of, the protocol to eliminate an \nimmediate hazard(s) to trial subjects without prior IRB/IEC approval/favourable opinion. As soon as \npossible, the implemented deviation or change, the reasons for it, and, if appropriate, the proposed \nprotocol amendment(s) should be submitted: \na) to the IRB/IEC for review and approval/favourable opinion,  \nb) to the sponsor for agreement and, if required, \nc) to the regulatory authority(ies). \n4.6.  Investigational Product(s)"
+  },
+  {
+    "section_title": "4.6.1.",
+    "page_label": "23",
+    "content": "Responsibility for investigational product(s) accountability at the trial site(s) rests with the \ninvestigator/institution."
+  },
+  {
+    "section_title": "4.6.2.",
+    "page_label": "23",
+    "content": "Where allowed/required, the investigator/institution may/should assign some or all of the \ninvestigator's/institution’s duties for investigational product(s) accountability at the trial site(s) to an \nappropriate pharmacist or another appropriate individual who is under the supervision of the \ninvestigator/institution."
+  },
+  {
+    "section_title": "4.6.3.",
+    "page_label": "23",
+    "content": "The investigator/institution and/or a pharmacist or other appropriate individual, who is designated by \nthe investigator/institution, should maintain records of the product's delivery to the trial site, the \ninventory at the site, the use by each subject, and the return to the sponsor or alternative disposition \nof unused product(s). These records should include dates, quantities, batch/serial numbers, expiration \ndates (if applicable), and the unique code numbers assigned to the investigational product(s) and trial \nsubjects. Investigators should maintain records that document adequately that the subjects were \nprovided the doses specified by the protocol and reconcile all investigational product(s) received from \nthe sponsor."
+  },
+  {
+    "section_title": "4.6.4.",
+    "page_label": "23",
+    "content": "The investigational product(s) should be stored as specified by the sponsor (see 5.13.2 and 5.14.3) \nand in accordance with applicable regulatory requirement(s)."
+  },
+  {
+    "section_title": "4.6.5.",
+    "page_label": "23",
+    "content": "The investigator should ensure that the investigational product(s) are used only in accordance with the \napproved protocol."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "24",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 24/68"
+  },
+  {
+    "section_title": "4.6.6.",
+    "page_label": "24",
+    "content": "The investigator, or a person designated by the investigator/institution, should explain the correct use \nof the investigational product(s) to each subject and should check, at intervals appropriate for the trial, \nthat each subject is following the instructions properly."
+  },
+  {
+    "section_title": "4.7.  Randomization Procedures and Unblinding",
+    "page_label": "24",
+    "content": "The investigator should follow the trial's randomization procedures, if any, and should ensure that the \ncode is broken only in accordance with the protocol. If the trial is blinded, the investigator should \npromptly document and explain to the sponsor any premature unblinding (e.g., accidental unblinding, \nunblinding due to a serious adverse event) of the investigational product(s)."
+  },
+  {
+    "section_title": "4.8.1.",
+    "page_label": "24",
+    "content": "In obtaining and documenting informed consent, the investigator should comply with the applicable \nregulatory requirement(s), and should adhere to GCP and to the ethical principles that have their origin \nin the Declaration of Helsinki. Prior to the beginning of the trial, the investigator should have the \nIRB/IEC's written approval/favourable opinion of the written informed consent form and any other \nwritten information to be provided to subjects."
+  },
+  {
+    "section_title": "4.8.2.   \nThe written informed consent form and any other written information to be provided to subjects should \nbe revised whenever important new information becomes available that may be relevant to the",
+    "page_label": "24",
+    "content": "subject’s consent. Any revised written informed consent form, and written information should receive \nthe IRB/IEC's approval/favourable opinion in advance of use. The subject or the subject’s legally \nacceptable representative should be informed in a timely manner if new information becomes available \nthat may be relevant to the subject’s willingness to continue participation in the trial. The \ncommunication of this information should be documented."
+  },
+  {
+    "section_title": "4.8.3.",
+    "page_label": "24",
+    "content": "Neither the investigator, nor the trial staff, should coerce or unduly influence a subject to participate or \nto continue to participate in a trial."
+  },
+  {
+    "section_title": "4.8.4.",
+    "page_label": "24",
+    "content": "None of the oral and written information concerning the trial, including the written informed consent \nform, should contain any language that causes the subject or the subject's legally acceptable \nrepresentative to waive or to appear to waive any legal rights, or that releases or appears to release \nthe investigator, the institution, the sponsor, or their agents from liability for negligence."
+  },
+  {
+    "section_title": "4.8.5.",
+    "page_label": "24",
+    "content": "The investigator, or a person designated by the investigator, should fully inform the subject or, if the \nsubject is unable to provide informed consent, the subject's legally acceptable representative, of all"
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "25",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 25/68 \n \n \npertinent aspects of the trial including the written information and the approval/ favourable opinion by \nthe IRB/IEC."
+  },
+  {
+    "section_title": "4.8.6.",
+    "page_label": "25",
+    "content": "The language used in the oral and written information about the trial, including the written informed \nconsent form, should be as non-technical as practical and should be understandable to the subject or \nthe subject's legally acceptable representative and the impartial witness, where applicable."
+  },
+  {
+    "section_title": "4.8.7.",
+    "page_label": "25",
+    "content": "Before informed consent may be obtained, the investigator, or a person designated by the investigator, \nshould provide the subject or the subject's legally acceptable representative ample time and \nopportunity to inquire about details of the trial and to decide whether or not to participate in the trial. \nAll questions about the trial should be answered to the satisfaction of the subject or the subject's \nlegally acceptable representative."
+  },
+  {
+    "section_title": "4.8.8.",
+    "page_label": "25",
+    "content": "Prior to a subject’s participation in the trial, the written informed consent form should be signed and \npersonally dated by the subject or by the subject's legally acceptable representative, and by the \nperson who conducted the informed consent discussion."
+  },
+  {
+    "section_title": "4.8.9.",
+    "page_label": "25",
+    "content": "If a subject is unable to read or if a legally acceptable representative is unable to read, an impartial \nwitness should be present during the entire informed consent discussion. After the written informed \nconsent form and any other written information to be provided to subjects, is read and explained to \nthe subject or the subject’s legally acceptable representative, and after the subject or the subject’s \nlegally acceptable representative has orally consented to the subject’s participation in the trial and, if \ncapable of doing so, has signed and personally dated the informed consent form, the witness should \nsign and personally date the consent form. By signing the consent form, the witness attests that the \ninformation in the consent form and any other written information was accurately explained to, and \napparently understood by, the subject or the subject's legally acceptable representative, and that \ninformed consent was freely given by the subject or the subject’s legally acceptable representative."
+  },
+  {
+    "section_title": "4.8.10.   \nBoth the informed consent discussion and the written informed consent form and any other written",
+    "page_label": "25",
+    "content": "information to be provided to subjects should include explanations of the following: \na) That the trial involves research.  \nb) The purpose of the trial. \nc) The trial treatment(s) and the probability for random assignment to each treatment. \nd) The trial procedures to be followed, including all invasive procedures. \ne) The subject's responsibilities. \nf) Those aspects of the trial that are experimental."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "26",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 26/68 \n \n \ng) The reasonably foreseeable risks or inconveniences to the subject and, when applicable, to an \nembryo, fetus, or nursing infant. \nh) The reasonably expected benefits. When there is no intended clinical benefit to the subject, the \nsubject should be made aware of this. \ni) The alternative procedure(s) or course(s) of treatment that may be available to the subject, and \ntheir important potential benefits and risks. \nj) The compensation and/or treatment available to the subject in the event of trial-related injury. \nk) The anticipated prorated payment, if any, to the subject for participating in the trial. \nl) The anticipated expenses, if any, to the subject for participating in the trial. \nm) That the subject's participation in the trial is voluntary and that the subject may refuse to \nparticipate or withdraw from the trial, at any time, without penalty or loss of benefits to which the \nsubject is otherwise entitled. \nn) That the monitor(s), the auditor(s), the IRB/IEC, and the regulatory authority(ies) will be granted \ndirect access to the subject's original medical records for verification of clinical trial procedures \nand/or data, without violating the confidentiality of the subject, to the extent permitted by the \napplicable laws and regulations and that, by signing a written informed consent form, the subject \nor the subject's legally acceptable representative is authorizing such access. \no) That records identifying the subject will be kept confidential and, to the extent permitted by the \napplicable laws and/or regulations, will not be made publicly available. If the results of the trial are \npublished, the subject’s identity will remain confidential. \np) That the subject or the subject's legally acceptable representative will be informed in a timely \nmanner if information becomes available that may be relevant to the subject's willingness to \ncontinue participation in the trial. \nq) The person(s) to contact for further information regarding the trial and the rights of trial subjects, \nand whom to contact in the event of trial-related injury. \nr) The foreseeable circumstances and/or reasons under which the subject's participation in the trial \nmay be terminated. \ns) The expected duration of the subject's participation in the trial.  \nt) The approximate number of subjects involved in the trial."
+  },
+  {
+    "section_title": "4.8.11.",
+    "page_label": "26",
+    "content": "Prior to participation in the trial, the subject or the subject's legally acceptable representative should \nreceive a copy of the signed and dated written informed consent form and any other written \ninformation provided to the subjects. During a subject’s participation in the trial, the subject or the \nsubject’s legally acceptable representative should receive a copy of the signed and dated consent form \nupdates and a copy of any amendments to the written information provided to subjects."
+  },
+  {
+    "section_title": "4.8.12.",
+    "page_label": "26",
+    "content": "When a clinical trial (therapeutic or non-therapeutic) includes subjects who can only be enrolled in the \ntrial with the consent of the subject’s legally acceptable representative (e.g., minors, or patients with"
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "27",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 27/68 \n \n \nsevere dementia), the subject should be informed about the trial to the extent compatible with the \nsubject’s understanding and, if capable, the subject should sign and personally date the written \ninformed consent."
+  },
+  {
+    "section_title": "4.8.13.",
+    "page_label": "27",
+    "content": "Except as described in 4.8.14, a non-therapeutic trial (i.e. a trial in which there is no anticipated direct \nclinical benefit to the subject), should be conducted in subjects who personally give consent and who \nsign and date the written informed consent form."
+  },
+  {
+    "section_title": "4.8.14.",
+    "page_label": "27",
+    "content": "Non-therapeutic trials may be conducted in subjects with consent of a legally acceptable representative \nprovided the following conditions are fulfilled: \na) The objectives of the trial cannot be met by means of a trial in subjects who can give informed \nconsent personally. \nb) The foreseeable risks to the subjects are low. \nc) The negative impact on the subject’s well-being is minimized and low. (d) The trial is not \nprohibited by law. \nd) The approval/favourable opinion of the IRB/IEC is expressly sought on the inclusion of such \nsubjects, and the written approval/ favourable opinion covers this aspect. \nSuch trials, unless an exception is justified, should be conducted in patients having a disease or \ncondition for which the investigational product is intended. Subjects in these trials should be \nparticularly closely monitored and should be withdrawn if they appear to be unduly distressed."
+  },
+  {
+    "section_title": "4.8.15.",
+    "page_label": "27",
+    "content": "In emergency situations, when prior consent of the subject is not possible, the consent of the subject's \nlegally acceptable representative, if present, should be requested. When prior consent of the subject is \nnot possible, and the subject’s legally acceptable representative is not available, enrolment of the \nsubject should require measures described in the protocol and/or elsewhere, with documented \napproval/favourable opinion by the IRB/IEC, to protect the rights, safety and well-being of the subject \nand to ensure compliance with applicable regulatory requirements. The subject or the subject's legally \nacceptable representative should be informed about the trial as soon as possible and consent to \ncontinue and other consent as appropriate (see 4.8.10) should be requested."
+  },
+  {
+    "section_title": "4.9.0.",
+    "page_label": "27",
+    "content": "The investigator/institution should maintain adequate and accurate source documents and trial records \nthat include all pertinent observations on each of the site’s trial subjects. Source data should be \nattributable, legible, contemporaneous, original, accurate, and complete. Changes to source data \nshould be traceable, should not obscure the original entry, and should be explained if necessary (e.g., \nvia an audit trail)."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "28",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 28/68"
+  },
+  {
+    "section_title": "4.9.1.",
+    "page_label": "28",
+    "content": "The investigator should ensure the accuracy, completeness, legibility, and timeliness of the data \nreported to the sponsor in the CRFs and in all required reports."
+  },
+  {
+    "section_title": "4.9.2.",
+    "page_label": "28",
+    "content": "Data reported on the CRF, that are derived from source documents, should be consistent with the \nsource documents or the discrepancies should be explained."
+  },
+  {
+    "section_title": "4.9.3.",
+    "page_label": "28",
+    "content": "Any change or correction to a CRF should be dated, initialed, and explained (if necessary) and should \nnot obscure the original entry (i.e. an audit trail should be maintained); this applies to both written \nand electronic changes or corrections (see 5.18.4 (n)). Sponsors should provide guidance to \ninvestigators and/or the investigators' designated representatives on making such corrections. \nSponsors should have written procedures to assure that changes or corrections in CRFs made by \nsponsor's designated representatives are documented, are necessary, and are endorsed by the \ninvestigator. The investigator should retain records of the changes and corrections."
+  },
+  {
+    "section_title": "4.9.4.",
+    "page_label": "28",
+    "content": "The investigator/institution should maintain the trial documents as specified in Essential Documents for \nthe Conduct of a Clinical Trial (see 8.) and as required by the applicable regulatory requirement(s). \nThe investigator/institution should take measures to prevent accidental or premature destruction of \nthese documents."
+  },
+  {
+    "section_title": "4.9.5.   \nEssential documents should be retained until at least 2 years after the last approval of a marketing \napplication in an ICH region and until there are no pending or contemplated marketing applications in \nan ICH region or at least 2 years have elapsed since the formal discontinuation of clinical development",
+    "page_label": "28",
+    "content": "of the investigational product. These documents should be retained for a longer period however if \nrequired by the applicable regulatory requirements or by an agreement with the sponsor. It is the \nresponsibility of the sponsor to inform the investigator/institution as to when these documents no \nlonger need to be retained (see 5.5.12)."
+  },
+  {
+    "section_title": "4.9.6.   \nThe financial aspects of the trial should be documented in an agreement between the sponsor and the",
+    "page_label": "28",
+    "content": "investigator/institution."
+  },
+  {
+    "section_title": "4.9.7.",
+    "page_label": "28",
+    "content": "Upon request of the monitor, auditor, IRB/IEC, or regulatory authority, the investigator/institution \nshould make available for direct access all requested trial-related records."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "29",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 29/68"
+  },
+  {
+    "section_title": "4.10.1.",
+    "page_label": "29",
+    "content": "The investigator should submit written summaries of the trial status to the IRB/IEC annually, or more \nfrequently, if requested by the IRB/IEC."
+  },
+  {
+    "section_title": "4.10.2.",
+    "page_label": "29",
+    "content": "The investigator should promptly provide written reports to the sponsor, the IRB/IEC (see 3.3.8) and, \nwhere applicable, the institution on any changes significantly affecting the conduct of the trial, and/or \nincreasing the risk to subjects."
+  },
+  {
+    "section_title": "4.11.1.",
+    "page_label": "29",
+    "content": "All serious adverse events (SAEs) should be reported immediately to the sponsor except for those \nSAEs that the protocol or other document (e.g., Investigator's Brochure) identifies as not needing \nimmediate reporting. The immediate reports should be followed promptly by detailed, written reports. \nThe immediate and follow-up reports should identify subjects by unique code numbers assigned to the \ntrial subjects rather than by the subjects' names, personal identification numbers, and/or addresses. \nThe investigator should also comply with the applicable regulatory requirement(s) related to the \nreporting of unexpected serious adverse drug reactions to the regulatory authority(ies) and the \nIRB/IEC."
+  },
+  {
+    "section_title": "4.11.2.",
+    "page_label": "29",
+    "content": "Adverse events and/or laboratory abnormalities identified in the protocol as critical to safety \nevaluations should be reported to the sponsor according to the reporting requirements and within the \ntime periods specified by the sponsor in the protocol."
+  },
+  {
+    "section_title": "4.11.3.",
+    "page_label": "29",
+    "content": "For reported deaths, the investigator should supply the sponsor and the IRB/IEC with any additional \nrequested information (e.g., autopsy reports and terminal medical reports)."
+  },
+  {
+    "section_title": "4.12.  Premature Termination or Suspension of a Trial",
+    "page_label": "29",
+    "content": "If the trial is prematurely terminated or suspended for any reason, the investigator/institution should \npromptly inform the trial subjects, should assure appropriate therapy and follow-up for the subjects, \nand, where required by the applicable regulatory requirement(s), should inform the regulatory \nauthority(ies). In addition:"
+  },
+  {
+    "section_title": "4.12.1.",
+    "page_label": "29",
+    "content": "If the investigator terminates or suspends a trial without prior agreement of the sponsor, the \ninvestigator should inform the institution where applicable, and the investigator/institution should \npromptly inform the sponsor and the IRB/IEC, and should provide the sponsor and the IRB/IEC a \ndetailed written explanation of the termination or suspension."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "30",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 30/68"
+  },
+  {
+    "section_title": "4.12.2.",
+    "page_label": "30",
+    "content": "If the sponsor terminates or suspends a trial (see 5.21), the investigator should promptly inform \nthe institution where applicable and the investigator/institution should promptly inform the IRB/IEC \nand provide the IRB/IEC a detailed written explanation of the termination or suspension."
+  },
+  {
+    "section_title": "4.12.3.",
+    "page_label": "30",
+    "content": "If the IRB/IEC terminates or suspends its approval/favourable opinion of a trial (see 3.1.2 and 3.3.9), \nthe investigator should inform the institution where applicable and the investigator/institution should \npromptly notify the sponsor and provide the sponsor with a detailed written explanation of the \ntermination or suspension. \n4.13.  Final Report(s) by Investigator \nUpon completion of the trial, the investigator, where applicable, should inform the institution; the \ninvestigator/institution should provide the IRB/IEC with a summary of the trial’s outcome, and the \nregulatory authority(ies) with any reports required."
+  },
+  {
+    "section_title": "5.0.  Quality management",
+    "page_label": "30",
+    "content": "The sponsor should implement a system to manage quality throughout all stages of the trial process. \nSponsors should focus on trial activities essential to ensuring human subject protection and the \nreliability of trial results. Quality management includes the design of efficient clinical trial protocols and \ntools and procedures for data collection and processing, as well as the collection of information that is \nessential to decision making.  \nThe methods used to assure and control the quality of the trial should be proportionate to the risks \ninherent in the trial and the importance of the information collected. The sponsor should ensure that all \naspects of the trial are operationally feasible and should avoid unnecessary complexity, procedures, \nand data collection. Protocols, case report forms, and other operational documents should be clear, \nconcise, and consistent. \nThe quality management system should use a risk-based approach as described below."
+  },
+  {
+    "section_title": "5.0.1.  Critical process and data identification",
+    "page_label": "30",
+    "content": "During protocol development, the sponsor should identify those processes and data that are critical to \nensure human subject protection and the reliability of trial results."
+  },
+  {
+    "section_title": "5.0.2.  Risk identification",
+    "page_label": "30",
+    "content": "The sponsor should identify risks to critical trial processes and data. Risks should be considered at both \nthe system level (e.g., standard operating procedures, computerized systems, personnel) and clinical \ntrial level (e.g., trial design, data collection, informed consent process)."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "31",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 31/68"
+  },
+  {
+    "section_title": "5.0.3.  Risk evaluation",
+    "page_label": "31",
+    "content": "The sponsor should evaluate the identified risks, against existing risk controls by considering: \na) The likelihood of errors occurring. \nb) The extent to which such errors would be detectable. \nc) The impact of such errors on human subject protection and reliability of trial results."
+  },
+  {
+    "section_title": "5.0.4.  Risk control",
+    "page_label": "31",
+    "content": "The sponsor should decide which risks to reduce and/or which risks to accept. The approach used to \nreduce risk to an acceptable level should be proportionate to the significance of the risk. Risk reduction \nactivities may be incorporated in protocol design and implementation, monitoring plans, agreements \nbetween parties defining roles and responsibilities, systematic safeguards to ensure adherence to \nstandard operating procedures, and training in processes and procedures. \nPredefined quality tolerance limits should be established, taking into consideration the medical and \nstatistical characteristics of the variables as well as the statistical design of the trial, to identify \nsystematic issues that can impact subject safety or reliability of trial results. Detection of deviations \nfrom the predefined quality tolerance limits should trigger an evaluation to determine if action is \nneeded."
+  },
+  {
+    "section_title": "5.0.5.  Risk communication",
+    "page_label": "31",
+    "content": "The sponsor should document quality management activities. The sponsor should communicate quality \nmanagement activities to those who are involved in or affected by such activities, to facilitate risk \nreview and continual improvement during clinical trial execution."
+  },
+  {
+    "section_title": "5.0.6.  Risk review \nThe sponsor should periodically review risk control measures to ascertain whether the implemented",
+    "page_label": "31",
+    "content": "quality management activities remain effective and relevant, taking into account emerging knowledge \nand experience."
+  },
+  {
+    "section_title": "5.0.7.  Risk reporting \nThe sponsor should describe the quality management approach implemented in the trial and \nsummarize important deviations from the predefined quality tolerance limits and remedial actions",
+    "page_label": "31",
+    "content": "taken in the clinical study report (ICH E3, Section 9.6 Data Quality Assurance)."
+  },
+  {
+    "section_title": "5.1.1.   \nThe  sponsor is  responsible for  implementing and maintaining quality assurance and quality control",
+    "page_label": "31",
+    "content": "systems with written SOPs to ensure that trials are conducted and data are generated, documented \n(recorded), and reported in compliance with  the  protocol,  GCP,  and  the  applicable  regulatory \nrequirement(s)."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "32",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 32/68"
+  },
+  {
+    "section_title": "5.1.2.   \nThe sponsor is responsible for securing agreement from all involved parties to ensure direct access",
+    "page_label": "32",
+    "content": "(see 1.21) to all trial related sites, source data/documents , and reports for the purpose of monitoring \nand auditing by the sponsor, and inspection by domestic and foreign regulatory authorities."
+  },
+  {
+    "section_title": "5.1.3.   \nQuality control should be applied to each stage of data handling to ensure that all data are reliable and",
+    "page_label": "32",
+    "content": "have been processed correctly."
+  },
+  {
+    "section_title": "5.1.4.",
+    "page_label": "32",
+    "content": "Agreements, made by the sponsor with the investigator/institution and any other parties involved with \nthe clinical trial, should be in writing, as part of the protocol or in a separate agreement. \n5.2.  Contract Research Organization (CRO)"
+  },
+  {
+    "section_title": "5.2.1.",
+    "page_label": "32",
+    "content": "A sponsor may transfer any or all of the sponsor's trial-related duties and functions to a CRO, but the \nultimate responsibility for the quality and integrity of the trial data always resides with the sponsor. \nThe CRO should implement quality assurance and quality control."
+  },
+  {
+    "section_title": "5.2.2.",
+    "page_label": "32",
+    "content": "Any trial-related duty and function that is transferred to and assumed by a CRO should be specified in \nwriting.  \nADDENDUM \nThe sponsor should ensure oversight of any trial-related duties and functions carried out on its behalf, \nincluding trial-related duties and functions that are subcontracted to another party by the sponsor’s \ncontracted CRO(s)."
+  },
+  {
+    "section_title": "5.2.3.",
+    "page_label": "32",
+    "content": "Any trial-related duties and functions not specifically transferred to and assumed by a CRO are \nretained by the sponsor."
+  },
+  {
+    "section_title": "5.2.4.   \nAll references to a sponsor in this guideline also apply to a CRO to the extent that a CRO has assumed",
+    "page_label": "32",
+    "content": "the trial related duties and functions of a sponsor."
+  },
+  {
+    "section_title": "5.3.  Medical expertise \nThe sponsor should designate appropriately qualified medical personnel who will be readily available to",
+    "page_label": "32",
+    "content": "advise on trial related medical questions or problems. If necessary, outside consultant(s) may be \nappointed for this purpose."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "33",
+    "content": "Guideline for good clinical practice E6(R2) \nEMA/CHMP/ICH/135/1995  Page 33/68"
+  },
+  {
+    "section_title": "5.4.1.",
+    "page_label": "33",
+    "content": "The sponsor should utilize qualified individuals (e.g. biostatisticians, clinical pharmacologists, and \nphysicians) as appropriate, throughout all stages of the trial process, from designing the protocol and \nCRFs and planning the analyses to analyzing and preparing interim and final clinical trial reports. \n5.4.2. \nFor further guidance: Clinical Trial Protocol and Protocol Amendment(s) (see 6.), the ICH Guideline for \nStructure and Content of Clinical Study Reports, and other appropriate ICH guidance on trial design, \nprotocol and conduct. \n5.5.  Trial management, data handling, and record keeping"
+  },
+  {
+    "section_title": "5.5.1.   \nThe sponsor should utilize appropriately qualified individuals to supervise the overall conduct of the",
+    "page_label": "33",
+    "content": "trial, to handle the data, to verify the data, to conduct the statistical analyses, and to prepare the trial \nreports. \n5.5.2. \nThe sponsor may consider establishing an independent data-monitoring committee (IDMC) to assess \nthe progress of a clinical trial, including the safety data and the critical efficacy endpoints at intervals, \nand to recommend to the sponsor whether to continue, modify, or stop a trial. The IDMC should have \nwritten operating procedures and maintain written records of all its meetings. \n5.5.3. \nWhen using electronic trial data handling and/or remote electronic trial data systems, the sponsor \nshould: \na) Ensure and document that the electronic data processing system(s) conforms to the sponsor’s\nestablished requirements for completeness, accuracy, reliability, and consistent intended\nperformance (i.e. validation).\nADDENDUM \nThe sponsor should base their approach to validation of such systems on a risk assessment that takes \ninto consideration the intended use of the system and the potential of the system to affect human \nsubject protection and reliability of trial results. \nb) Maintains SOPs for using these systems.\nADDENDUM \nThe SOPs should cover system setup, installation, and use. The SOPs should describe system \nvalidation and functionality testing, data collection and handling, system maintenance, system security \nmeasures, change control, data backup, recovery, contingency planning, and decommissioning. The \nresponsibilities of the sponsor, investigator, and other parties with respect to the use of these \ncomputerized systems should be clear, and the users should be provided with training in their use."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "34",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 34/68 \n \n \nc) Ensure that the systems are designed to permit data changes in such a way that the data changes \nare documented and that there is no deletion of entered data (i.e. maintain an audit trail, data \ntrail, edit trail). \nd) Maintain a security system that prevents unauthorized access to the data.  \ne) Maintain a list of the individuals who are authorized to make data changes (see 4.1.5 and 4.9.3). \nf) Maintain adequate backup of the data. \ng) Safeguard the blinding, if any (e.g. maintain the blinding during data entry and processing). \nADDENDUM \nh) Ensure the integrity of the data including any data that describe the context, content, and \nstructure. This is particularly important when making changes to the computerized systems, such \nas software upgrades or migration of data."
+  },
+  {
+    "section_title": "5.5.4.",
+    "page_label": "34",
+    "content": "If data are transformed during processing, it should always be possible to compare the original data \nand observations with the processed data."
+  },
+  {
+    "section_title": "5.5.5.",
+    "page_label": "34",
+    "content": "The sponsor should use an unambiguous subject identification code (see 1.58) that allows identification \nof all the data reported for each subject."
+  },
+  {
+    "section_title": "5.5.6.",
+    "page_label": "34",
+    "content": "The sponsor, or other owners of the data, should retain all of the sponsor- specific  essential \ndocuments pertaining to the trial (see 8. Essential Documents for the Conduct of a Clinical Trial)."
+  },
+  {
+    "section_title": "5.5.7.",
+    "page_label": "34",
+    "content": "The sponsor should retain all sponsor-specific essential documents in conformance with the applicable \nregulatory requirement(s) of the country(ies) where the product is approved, and/or where the \nsponsor intends to apply for approval(s)."
+  },
+  {
+    "section_title": "5.5.8.",
+    "page_label": "34",
+    "content": "If the sponsor discontinues the clinical development of an investigational product (i.e. for any or all \nindications, routes of administration, or dosage forms), the sponsor should maintain all sponsor-\nspecific essential documents for at least 2 years after formal discontinuation or in conformance with \nthe applicable regulatory requirement(s)."
+  },
+  {
+    "section_title": "5.5.9.",
+    "page_label": "34",
+    "content": "If the sponsor discontinues the clinical development of an investigational product, the sponsor should \nnotify all the trial investigators/institutions and all the regulatory authorities."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "35",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 35/68"
+  },
+  {
+    "section_title": "5.5.10.",
+    "page_label": "35",
+    "content": "Any transfer of ownership of the data should be reported to the appropriate authority(ies), as required \nby the applicable regulatory requirement(s)."
+  },
+  {
+    "section_title": "5.5.11.   \nThe sponsor specific essential documents should be retained until at least 2 years after the last \napproval of a marketing application in an ICH region and until there are no pending or contemplated \nmarketing applications in an ICH region or at least 2 years have elapsed since the formal",
+    "page_label": "35",
+    "content": "discontinuation of clinical development of the investigational product. These documents should be \nretained for a longer period however if required by the applicable regulatory requirement(s) or if \nneeded by the sponsor."
+  },
+  {
+    "section_title": "5.5.12.",
+    "page_label": "35",
+    "content": "The sponsor should inform the investigator(s)/institution(s) in writing of the need for record retention \nand should notify the investigator(s)/institution(s) in writing when the trial related records are no \nlonger needed."
+  },
+  {
+    "section_title": "5.6.1.",
+    "page_label": "35",
+    "content": "The sponsor is responsible for selecting the investigator(s)/institution(s). Each investigator should be \nqualified by training and experience and should have adequate resources (see 4.1, 4.2) to properly \nconduct the trial for which the investigator is selected. If organization of a coordinating committee \nand/or selection of coordinating investigator(s) are to be utilized in multicentre trials, their \norganization and/or selection are the sponsor's responsibility."
+  },
+  {
+    "section_title": "5.6.2.",
+    "page_label": "35",
+    "content": "Before entering an agreement with an investigator/institution to conduct a trial, the sponsor should \nprovide the investigator(s)/institution(s) with the protocol and an up-to-date Investigator's Brochure, \nand should provide sufficient time for the investigator/institution to review the protocol and the \ninformation provided."
+  },
+  {
+    "section_title": "5.6.3.",
+    "page_label": "35",
+    "content": "The sponsor should obtain the investigator's/institution's agreement: \na) to conduct the trial in compliance with GCP, with the applicable regulatory requirement(s) (see \n4.1.3), and with the protocol agreed to by the sponsor and given approval/favourable opinion by \nthe IRB/IEC (see 4.5.1); \nb) to comply with procedures for data recording/reporting; \nc) to permit monitoring, auditing and inspection (see 4.1.4) and \nd) to retain the trial related essential documents until the sponsor informs the investigator/institution \nthese documents are no longer needed (see 4.9.4 and 5.5.12)."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "36",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 36/68 \n \n \nThe sponsor and the investigator/institution should sign the protocol, or an alternative document, to \nconfirm this agreement."
+  },
+  {
+    "section_title": "5.7.  Allocation of responsibilities",
+    "page_label": "36",
+    "content": "Prior to initiating a trial, the sponsor should define, establish, and allocate all trial- related duties and \nfunctions."
+  },
+  {
+    "section_title": "5.8.1.",
+    "page_label": "36",
+    "content": "If required by the applicable regulatory requirement(s), the sponsor should provide insurance or should \nindemnify (legal and financial coverage) the investigator/the institution against claims arising from the \ntrial, except for claims that arise from malpractice and/or negligence."
+  },
+  {
+    "section_title": "5.8.2.",
+    "page_label": "36",
+    "content": "The sponsor's policies and procedures should address the costs of treatment of trial subjects in the \nevent of trial-related injuries in accordance with the applicable regulatory requirement(s)."
+  },
+  {
+    "section_title": "5.8.3.",
+    "page_label": "36",
+    "content": "When trial subjects receive compensation, the method and manner of compensation should comply \nwith applicable regulatory requirement(s)."
+  },
+  {
+    "section_title": "5.9.  Financing \nThe financial aspects of the trial should be documented in an agreement between the sponsor and the",
+    "page_label": "36",
+    "content": "investigator/institution. \n5.10.  Notification/submission to regulatory authority(ies) \nBefore initiating the clinical trial(s), the sponsor (or the sponsor and the investigator, if required by the \napplicable regulatory requirement(s)) should submit any required application(s) to the appropriate \nauthority(ies) for review, acceptance, and/or permission (as required by the applicable regulatory \nrequirement(s)) to begin the trial(s). Any notification/submission should be dated and contain \nsufficient information to identify the protocol. \n5.11.  Confirmation of review by IRB/IEC"
+  },
+  {
+    "section_title": "5.11.1.",
+    "page_label": "36",
+    "content": "The sponsor should obtain from the investigator/institution: \na) The name and address of the investigator's/institution’s IRB/IEC. \nb) A statement obtained from the IRB/IEC that it is organized and operates according to GCP and the \napplicable laws and regulations."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "37",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 37/68 \n \n \nc) Documented IRB/IEC approval/favourable opinion and, if requested by the sponsor, a current copy \nof protocol, written informed consent form(s) and any other written information to be provided to \nsubjects, subject recruiting procedures, and documents related to payments and compensation \navailable to the subjects, and any other documents that the IRB/IEC may have requested."
+  },
+  {
+    "section_title": "5.11.2.",
+    "page_label": "37",
+    "content": "If the IRB/IEC conditions its approval/favourable opinion upon change(s) in any aspect of the trial, \nsuch as modification(s) of the protocol, written informed consent form and any other written \ninformation to be provided to subjects, and/or other procedures, the sponsor should obtain from the \ninvestigator/institution a copy of the modification(s) made and the date approval/favourable opinion \nwas given by the IRB/IEC."
+  },
+  {
+    "section_title": "5.11.3.",
+    "page_label": "37",
+    "content": "The sponsor should obtain from the investigator/institution documentation and dates of any IRB/IEC \nreapprovals/re-evaluations with favourable opinion, and of any withdrawals or suspensions of \napproval/favourable opinion. \n5.12.  Information on investigational product(s)"
+  },
+  {
+    "section_title": "5.12.1.",
+    "page_label": "37",
+    "content": "When planning trials, the sponsor should ensure that sufficient safety and efficacy data from nonclinical \nstudies and/or clinical trials are available to support human exposure by the route, at the dosages, for \nthe duration, and in the trial population to be studied."
+  },
+  {
+    "section_title": "5.12.2.",
+    "page_label": "37",
+    "content": "The sponsor should update the Investigator's Brochure as significant new information becomes \navailable (see 7. Investigator's Brochure). \n5.13.  Manufacturing, packaging, labelling, and coding investigational \nproduct(s)"
+  },
+  {
+    "section_title": "5.13.1.",
+    "page_label": "37",
+    "content": "The sponsor should ensure that the investigational product(s) (including active comparator(s) and \nplacebo, if applicable) is characterized as appropriate to the stage of development of the product(s), is \nmanufactured in accordance with any applicable GMP, and is coded and labelled in a manner that \nprotects the blinding, if applicable. In addition, the labelling should comply with applicable regulatory \nrequirement(s)."
+  },
+  {
+    "section_title": "5.13.2.",
+    "page_label": "37",
+    "content": "The sponsor should determine, for the investigational product(s), acceptable storage temperatures, \nstorage conditions (e.g. protection from light), storage times, reconstitution fluids and procedures, and \ndevices for product infusion, if any. The sponsor should inform all involved parties (e.g. monitors, \ninvestigators, pharmacists, storage managers) of these determinations."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "38",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 38/68"
+  },
+  {
+    "section_title": "5.13.3.",
+    "page_label": "38",
+    "content": "The investigational product(s) should be packaged to prevent contamination and unacceptable \ndeterioration during transport and storage."
+  },
+  {
+    "section_title": "5.13.4.",
+    "page_label": "38",
+    "content": "In blinded trials, the coding system for the investigational product(s) should include a mechanism that \npermits rapid identification of the product(s) in case of a medical emergency, but does not permit \nundetectable breaks of the blinding."
+  },
+  {
+    "section_title": "5.13.5.",
+    "page_label": "38",
+    "content": "If significant formulation changes are made in the investigational or comparator product(s) during the \ncourse of clinical development, the results of any additional studies of the formulated product(s) (e.g. \nstability, dissolution rate, bioavailability) needed to assess whether these changes would significantly \nalter the pharmacokinetic profile of the product should be available prior to the use of the new \nformulation in clinical trials. \n5.14.  Supplying and handling investigational product(s)"
+  },
+  {
+    "section_title": "5.14.1.",
+    "page_label": "38",
+    "content": "The sponsor is responsible for supplying the investigator(s)/institution(s) with the investigational \nproduct(s)."
+  },
+  {
+    "section_title": "5.14.2.",
+    "page_label": "38",
+    "content": "The sponsor should not supply an investigator/institution with the investigational product(s) until the \nsponsor obtains all required documentation (e.g. approval/favourable opinion from IRB/IEC and \nregulatory authority(ies))."
+  },
+  {
+    "section_title": "5.14.3.",
+    "page_label": "38",
+    "content": "The sponsor should ensure that written procedures include instructions that the investigator/institution \nshould follow for the handling and storage of investigational product(s) for the trial and documentation \nthereof. The procedures should address adequate and safe receipt, handling, storage, dispensing, \nretrieval of unused product from subjects, and return of unused investigational product(s) to the \nsponsor (or alternative disposition if authorized by the sponsor and in compliance with the applicable \nregulatory requirement(s))."
+  },
+  {
+    "section_title": "5.14.4.",
+    "page_label": "38",
+    "content": "The sponsor should: \na) Ensure timely delivery of investigational product(s) to the investigator(s).  \nb) Maintain records that document shipment, receipt, disposition, return, and destruction of the \ninvestigational product(s) (see 8. Essential Documents for the Conduct of a Clinical Trial). \nc) Maintain a system for retrieving investigational products and documenting this retrieval (e.g. for \ndeficient product recall, reclaim after trial completion, expired product reclaim)."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "39",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 39/68 \n \n \nd) Maintain a system for the disposition of unused investigational product(s) and for the \ndocumentation of this disposition."
+  },
+  {
+    "section_title": "5.14.5.",
+    "page_label": "39",
+    "content": "The sponsor should: \na) Take steps to ensure that the investigational product(s) are stable over the period of use. \nb) Maintain sufficient quantities of the investigational product(s) used in the trials to reconfirm \nspecifications, should this become necessary, and maintain records of batch sample analyses and \ncharacteristics. To the extent stability permits, samples should be retained either until the analyses \nof the trial data are complete or as required by the applicable regulatory requirement(s), \nwhichever represents the longer retention period."
+  },
+  {
+    "section_title": "5.15.1.   \nThe sponsor should ensure that it is specified in the protocol or other written agreement that the",
+    "page_label": "39",
+    "content": "investigator(s)/institution(s) provide direct access to source data/documents for trial-related \nmonitoring, audits, IRB/IEC review, and regulatory inspection."
+  },
+  {
+    "section_title": "5.15.2.",
+    "page_label": "39",
+    "content": "The sponsor should verify that each subject has consented, in writing, to direct access to his/her \noriginal medical records for trial-related monitoring, audit, IRB/IEC review, and regulatory inspection."
+  },
+  {
+    "section_title": "5.16.1.",
+    "page_label": "39",
+    "content": "The sponsor is responsible for the ongoing safety evaluation of the investigational product(s)."
+  },
+  {
+    "section_title": "5.16.2.",
+    "page_label": "39",
+    "content": "The sponsor should promptly notify all concerned investigator(s)/institution(s) and the regulatory \nauthority(ies) of findings that could affect adversely the safety of subjects, impact the conduct of the \ntrial, or alter the IRB/IEC's approval/favourable opinion to continue the trial."
+  },
+  {
+    "section_title": "5.17.1.",
+    "page_label": "39",
+    "content": "The sponsor should expedite the reporting to all concerned investigator(s)/institutions(s), to the \nIRB(s)/IEC(s), where required, and to the regulatory authority(ies) of all adverse drug reactions \n(ADRs) that are both serious and unexpected."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "40",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 40/68"
+  },
+  {
+    "section_title": "5.17.2.",
+    "page_label": "40",
+    "content": "Such expedited reports should comply with the applicable regulatory requirement(s) and with the ICH \nGuideline for Clinical Safety Data Management: Definitions and Standards for Expedited Reporting."
+  },
+  {
+    "section_title": "5.17.3.",
+    "page_label": "40",
+    "content": "The sponsor should submit to the regulatory authority(ies) all safety updates and periodic reports, as \nrequired by applicable regulatory requirement(s)."
+  },
+  {
+    "section_title": "5.18.1.  Purpose",
+    "page_label": "40",
+    "content": "The purposes of trial monitoring are to verify that: \na) The rights and well-being of human subjects are protected. \nb) The reported trial data are accurate, complete, and verifiable from source documents. \nc) The conduct of the trial is in compliance with the currently approved protocol/amendment(s), with \nGCP, and with the applicable regulatory requirement(s)."
+  },
+  {
+    "section_title": "5.18.2.  Selection and qualifications of monitors",
+    "page_label": "40",
+    "content": "a) Monitors should be appointed by the sponsor. \nb) Monitors should be appropriately trained, and should have the scientific and/or clinical knowledge \nneeded to monitor the trial adequately. A monitor’s qualifications should be documented. \nc) Monitors should be thoroughly familiar with the investigational product(s), the protocol, written \ninformed consent form and any other written information to be provided to subjects, the sponsor’s \nSOPs, GCP, and the applicable regulatory requirement(s)."
+  },
+  {
+    "section_title": "5.18.3.  Extent and nature of monitoring",
+    "page_label": "40",
+    "content": "The sponsor should ensure that the trials are adequately monitored. The sponsor should determine the \nappropriate extent and nature of monitoring. The determination of the extent and nature of monitoring \nshould be based on considerations such as the objective, purpose, design, complexity, blinding, size, \nand endpoints of the trial. In general there is a need for on-site monitoring, before, during, and after \nthe trial; however in exceptional circumstances the sponsor may determine that central monitoring in \nconjunction with procedures such as investigators’ training and meetings, and extensive written \nguidance can assure appropriate conduct of the trial in accordance with GCP. Statistically controlled \nsampling may be an acceptable method for selecting the data to be verified. \nADDENDUM \nThe sponsor should develop a systematic, prioritized, risk-based approach to monitoring clinical trials. \nThe flexibility in the extent and nature of monitoring described in this section is intended to permit \nvaried approaches that improve the effectiveness and efficiency of monitoring. The sponsor may \nchoose on-site monitoring, a combination of on-site and centralized monitoring, or, where justified, \ncentralized monitoring. The sponsor should document the rationale for the chosen monitoring strategy \n(e.g., in the monitoring plan)."
+  },
+  {
+    "section_title": "Full Document",
+    "page_label": "41",
+    "content": " \n \n \nGuideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 41/68 \n \n \nOn-site monitoring is performed at the sites at which the clinical trial is being conducted. Centralized \nmonitoring is a remote evaluation of accumulating data, performed in a timely manner, supported by \nappropriately qualified and trained persons (e.g., data managers, biostatisticians). \nCentralized monitoring processes provide additional monitoring capabilities that can complement and \nreduce the extent and/or frequency of on-site monitoring and help distinguish between reliable data \nand potentially unreliable data. \nReview, that may include statistical analyses, of accumulating data from centralized monitoring can be \nused to: \na) identify missing data, inconsistent data, data outliers, unexpected lack of variability and protocol \ndeviations. \nb) examine data trends such as the range, consistency, and variability of data within and across sites. \nc) evaluate for systematic or significant errors in data collection and reporting at a site or across \nsites; or potential data manipulation or data integrity problems. \nd) analyze site characteristics and performance metrics. \ne) select sites and/or processes for targeted on-site monitoring. \n5.18.4.  Monitor's responsibilities \nThe monitor(s) in accordance with the sponsor’s requirements should ensure that the trial is conducted \nand documented properly by carrying out the following activities when relevant and necessary to the \ntrial and the trial site: \na) Acting as the main line of communication between the sponsor and the investigator. \nb) Verifying that the investigator has adequate qualifications and resources (see 4.1, 4.2, 5.6) and \nremain adequate throughout the trial period, that facilities, including laboratories, equipment, and \nstaff, are adequate to safely and properly conduct the trial and remain adequate throughout the \ntrial period. \nc) Verifying, for the investigational product(s): \ni. That storage times and conditions are acceptable, and that supplies are sufficient throughout \nthe trial. \nii. That the investigational product(s) are supplied only to subjects who are eligible to receive it \nand at the protocol specified dose(s). \niii. That subjects are provided with necessary instruction on properly using, handling, \nstoring, and returning the investigational product(s). \niv. That the receipt, use, and return of the investigational product(s) at the trial sites are \ncontrolled and documented adequately. \nv. That the disposition of unused investigational product(s) at the trial sites complies with \napplicable regulatory requirement(s) and is in accordance with the sponsor. \nd) Verifying that the investigator follows the approved protocol and all approved amendment(s), if \nany. "
+  },
+  {
+    "section_title": "Full Document",
+    "page_label": "42",
+    "content": " \n \n \nGuideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 42/68 \n \n \ne) Verifying that written informed consent was obtained before each subject's participation in the \ntrial. \nf) Ensuring that the investigator receives the current Investigator's Brochure, all documents, and all \ntrial supplies needed to conduct the trial properly and to comply with the applicable regulatory \nrequirement(s). \ng) Ensuring that the investigator and the investigator's trial staff are adequately informed about the \ntrial. \nh) Verifying that the investigator and the investigator's trial staff are performing the specified trial \nfunctions, in accordance with the protocol and any other written agreement between the \nsponsor and the investigator/institution, and have not delegated these functions to unauthorized \nindividuals. \ni) Verifying that the investigator is enroling only eligible subjects.  \nj) Reporting the subject recruitment rate. \nk) Verifying that source documents and other trial records are accurate, complete, kept up-to-date \nand maintained. \nl) Verifying that the investigator provides all the required reports, notifications, applications, and \nsubmissions, and that these documents are accurate, complete, timely, legible, dated, and identify \nthe trial. \nm) Checking the accuracy and completeness of the CRF entries, source documents and other trial-\nrelated records against each other. The monitor specifically should verify that: \ni. The data required by the protocol are reported accurately on the CRFs and are consistent with \nthe source documents. \nii. Any dose and/or therapy modifications are well documented for each of the trial subjects. \niii. Adverse events, concomitant medications and intercurrent illnesses are reported in accordance \nwith the protocol on the CRFs. \niv. Visits that the subjects fail to make, tests that are not conducted, and examinations that are \nnot performed are clearly reported as such on the CRFs. \nv. All withdrawals and dropouts of enrolled subjects from the trial are reported and explained on \nthe CRFs. \nn) Informing the investigator of any CRF entry error, omission, or illegibility.The monitor should \nensure that appropriate corrections, additions, or deletions are made, dated, explained (if \nnecessary), and initialled by the investigator or by a member of the investigator's trial staff who is \nauthorized to initial CRF changes for the investigator. This authorization should be documented. \no) Determining whether all adverse events (AEs) are appropriately reported within the time periods \nrequired by GCP, the protocol, the IRB/IEC, the sponsor, and the applicable regulatory \nrequirement(s). \np) Determining whether the investigator is maintaining the essential documents (see 8. Essential \nDocuments for the Conduct of a Clinical Trial). "
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "43",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 43/68 \n \n \nq) Communicating deviations from the protocol, SOPs, GCP, and the applicable regulatory \nrequirements to the investigator and taking appropriate action designed to prevent recurrence of \nthe detected deviations."
+  },
+  {
+    "section_title": "5.18.5.  Monitoring procedures",
+    "page_label": "43",
+    "content": "The monitor(s) should follow the sponsor’s established written SOPs as well as those procedures that \nare specified by the sponsor for monitoring a specific trial."
+  },
+  {
+    "section_title": "5.18.6.  Monitoring report",
+    "page_label": "43",
+    "content": "a) The monitor should submit a written report to the sponsor after each trial- site visit or trial-related \ncommunication. \nb) Reports should include the date, site, name of the monitor, and name of the investigator or other \nindividual(s) contacted. \nc) Reports should include a summary of what the monitor reviewed and the monitor's statements \nconcerning the significant findings/facts, deviations and deficiencies, conclusions, actions taken or \nto be taken and/or actions recommended to secure compliance. \nd) The review and follow-up of the monitoring report with the sponsor should be documented by the \nsponsor’s designated representative. \nADDENDUM \ne) Reports of on-site and/or centralized monitoring should be provided to the sponsor (including \nappropriate management and staff responsible for trial and site oversight) in a timely manner for \nreview and follow up. Results of monitoring activities should be documented in sufficient detail to \nallow verification of compliance with the monitoring plan. Reporting of centralized monitoring \nactivities should be regular and may be independent from site visits. \nADDENDUM"
+  },
+  {
+    "section_title": "5.18.7.  Monitoring plan \nThe sponsor should develop a monitoring plan that is tailored to the specific human subject protection",
+    "page_label": "43",
+    "content": "and data integrity risks of the trial. The plan should describe the monitoring strategy, the monitoring \nresponsibilities of all the parties involved, the various monitoring methods to be used, and the \nrationale for their use. The plan should also emphasize the monitoring of critical data and processes. \nParticular attention should be given to those aspects that are not routine clinical practice and that \nrequire additional training. The monitoring plan should reference the applicable policies and \nprocedures."
+  },
+  {
+    "section_title": "5.19.  Audit",
+    "page_label": "43",
+    "content": "If or when sponsors perform audits, as part of implementing quality assurance, they should consider:"
+  },
+  {
+    "section_title": "5.19.1.  Purpose",
+    "page_label": "43",
+    "content": "The purpose of a sponsor's audit, which is independent of and separate from routine monitoring or \nquality control functions, should be to evaluate trial conduct and compliance with the protocol, SOPs, \nGCP, and the applicable regulatory requirements."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "44",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 44/68"
+  },
+  {
+    "section_title": "5.19.2.  Selection and qualification of auditors",
+    "page_label": "44",
+    "content": "a) The sponsor should appoint individuals, who are independent of the clinical trials/systems, to \nconduct audits. \nb) The sponsor should ensure that the auditors are qualified by training and experience to conduct \naudits properly. An auditor’s qualifications should be documented."
+  },
+  {
+    "section_title": "5.19.3.  Auditing procedures",
+    "page_label": "44",
+    "content": "a) The sponsor should ensure that the auditing of clinical trials/systems is conducted in accordance \nwith the sponsor's written procedures on what to audit, how to audit, the frequency of audits, and \nthe form and content of audit reports. \nb) The sponsor's audit plan and procedures for a trial audit should be guided by the importance of the \ntrial to submissions to regulatory authorities, the number of subjects in the trial, the type and \ncomplexity of the trial, the level of risks to the trial subjects, and any identified problem(s). \nc) The observations and findings of the auditor(s) should be documented. \nd) To preserve the independence and value of the audit function, the regulatory authority(ies) should \nnot routinely request the audit reports. Regulatory authority(ies) may seek access to an audit \nreport on a case by case basis when evidence of serious GCP non-compliance exists, or in the \ncourse of legal proceedings. \ne) When required by applicable law or regulation, the sponsor should provide an audit certificate."
+  },
+  {
+    "section_title": "5.20.1.",
+    "page_label": "44",
+    "content": "Noncompliance with the protocol, SOPs, GCP, and/or applicable regulatory requirement(s) by an \ninvestigator/institution, or by member(s) of the sponsor's staff should lead to prompt action by the \nsponsor to secure compliance. \nADDENDUM \nIf noncompliance that significantly affects or has the potential to significantly affect human subject \nprotection or reliability of trial results is discovered, the sponsor should perform a root cause analysis \nand implement appropriate corrective and preventive actions."
+  },
+  {
+    "section_title": "5.20.2.",
+    "page_label": "44",
+    "content": "If the monitoring and/or auditing identifies serious and/or persistent noncompliance on the part of an \ninvestigator/institution, the sponsor should terminate the investigator's/institution’s participation in the \ntrial. When an investigator's/institution’s participation  is  terminated  because  of \nnoncompliance, the sponsor should notify promptly the regulatory authority(ies)."
+  },
+  {
+    "section_title": "5.21.  Premature termination or suspension of a trial",
+    "page_label": "44",
+    "content": "If a trial is prematurely terminated or suspended, the sponsor should promptly inform the \ninvestigators/institutions, and the regulatory authority(ies) of the termination or suspension and the \nreason(s) for the termination or suspension. The IRB/IEC should also be informed promptly and"
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "45",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 45/68 \n \n \nprovided the reason(s) for the termination or suspension by the sponsor or by the investigator / \ninstitution, as specified by the applicable regulatory requirement(s). \n5.22.  Clinical trial/study reports \nWhether the trial is completed or prematurely terminated, the sponsor should ensure that the clinical \ntrial reports are prepared and provided to the regulatory agency(ies) as required by the applicable \nregulatory requirement(s). The sponsor should also ensure that the clinical trial reports in marketing \napplications meet the standards of the ICH Guideline for Structure and Content of Clinical Study \nReports. (NOTE: The ICH Guideline for Structure and Content of Clinical Study Reports specifies that \nabbreviated study reports may be acceptable in certain cases.)"
+  },
+  {
+    "section_title": "5.23.  Multicentre trials",
+    "page_label": "45",
+    "content": "For multicentre trials, the sponsor should ensure that:"
+  },
+  {
+    "section_title": "5.23.1.",
+    "page_label": "45",
+    "content": "All investigators conduct the trial in strict compliance with the protocol agreed to by the sponsor and, if \nrequired, by the regulatory authority(ies), and given approval/favourable opinion by the IRB/IEC."
+  },
+  {
+    "section_title": "5.23.2.",
+    "page_label": "45",
+    "content": "The CRFs are designed to capture the required data at all multicentre trial sites. For those investigators \nwho are collecting additional data, supplemental CRFs should also be provided that are designed to \ncapture the additional data."
+  },
+  {
+    "section_title": "5.23.3.",
+    "page_label": "45",
+    "content": "The responsibilities of coordinating investigator(s) and the other participating investigators are \ndocumented prior to the start of the trial."
+  },
+  {
+    "section_title": "5.23.4.",
+    "page_label": "45",
+    "content": "All investigators are given instructions on following the protocol, on complying with a uniform set of \nstandards for the assessment of clinical and laboratory findings, and on completing the CRFs."
+  },
+  {
+    "section_title": "5.23.5.",
+    "page_label": "45",
+    "content": "Communication between investigators is facilitated."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "46",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 46/68 \n \n \n6.  Clinical trial protocol and protocol amendment(s) \nThe contents of a trial protocol should generally include the following topics. However, site specific \ninformation may be provided on separate protocol page(s), or addressed in a separate agreement, and \nsome of the information listed below may be contained in other protocol referenced documents, such \nas an Investigator’s Brochure."
+  },
+  {
+    "section_title": "6.1.1.",
+    "page_label": "46",
+    "content": "Protocol title, protocol identifying number, and date. Any amendment(s) should also bear the \namendment number(s) and date(s)."
+  },
+  {
+    "section_title": "6.1.2.",
+    "page_label": "46",
+    "content": "Name and address of the sponsor and monitor (if other than the sponsor)."
+  },
+  {
+    "section_title": "6.1.3.",
+    "page_label": "46",
+    "content": "Name and title of the person(s) authorized to sign the protocol and the protocol amendment(s) for the \nsponsor."
+  },
+  {
+    "section_title": "6.1.4.",
+    "page_label": "46",
+    "content": "Name, title, address, and telephone number(s) of the sponsor's medical expert (or dentist when \nappropriate) for the trial."
+  },
+  {
+    "section_title": "6.1.5.",
+    "page_label": "46",
+    "content": "Name and title of the investigator(s) who is (are) responsible for conducting the trial, and the address \nand telephone number(s) of the trial site(s)."
+  },
+  {
+    "section_title": "6.1.6.",
+    "page_label": "46",
+    "content": "Name, title, address, and telephone number(s) of the qualified physician (or dentist, if applicable), who \nis responsible for all trial-site related medical (or dental) decisions (if other than investigator)."
+  },
+  {
+    "section_title": "6.1.7.",
+    "page_label": "46",
+    "content": "Name(s) and address(es) of the clinical laboratory(ies) and other medical and/or technical \ndepartment(s) and/or institutions involved in the trial."
+  },
+  {
+    "section_title": "6.2.1.",
+    "page_label": "46",
+    "content": "Name and description of the investigational product(s)."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "47",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 47/68"
+  },
+  {
+    "section_title": "6.2.2.   \nA summary of findings from nonclinical studies that potentially have clinical significance and from",
+    "page_label": "47",
+    "content": "clinical trials that are relevant to the trial."
+  },
+  {
+    "section_title": "6.2.3.",
+    "page_label": "47",
+    "content": "Summary of the known and potential risks and benefits, if any, to human subjects."
+  },
+  {
+    "section_title": "6.2.4.",
+    "page_label": "47",
+    "content": "Description of and justification for the route of administration, dosage, dosage regimen, and treatment \nperiod(s)."
+  },
+  {
+    "section_title": "6.2.5.",
+    "page_label": "47",
+    "content": "A statement that the trial will be conducted in compliance with the protocol, GCP and the applicable \nregulatory requirement(s)."
+  },
+  {
+    "section_title": "6.2.6.",
+    "page_label": "47",
+    "content": "Description of the population to be studied."
+  },
+  {
+    "section_title": "6.2.7.",
+    "page_label": "47",
+    "content": "References to literature and data that are relevant to the trial, and that provide background for the \ntrial."
+  },
+  {
+    "section_title": "6.3.  Trial objectives and purpose",
+    "page_label": "47",
+    "content": "A detailed description of the objectives and the purpose of the trial."
+  },
+  {
+    "section_title": "6.4.  Trial design \nThe scientific integrity of the trial and the credibility of the data from the trial depend substantially on",
+    "page_label": "47",
+    "content": "the trial design. A description of the trial design, should include:"
+  },
+  {
+    "section_title": "6.4.1.",
+    "page_label": "47",
+    "content": "A specific statement of the primary endpoints and the secondary endpoints, if any, to be measured \nduring the trial."
+  },
+  {
+    "section_title": "6.4.2.",
+    "page_label": "47",
+    "content": "A description of the type/design of trial to be conducted (e.g. double-blind, placebo-controlled, parallel \ndesign) and a schematic diagram of trial design, procedures and stages."
+  },
+  {
+    "section_title": "6.4.3.",
+    "page_label": "47",
+    "content": "A description of the measures taken to minimize/avoid bias, including:  \n Randomization."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "48",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 48/68 \n \n \n Blinding."
+  },
+  {
+    "section_title": "6.4.4.",
+    "page_label": "48",
+    "content": "A description of the trial treatment(s) and the dosage and dosage regimen of the investigational \nproduct(s). Also include a description of the dosage form, packaging, and labelling of the \ninvestigational product(s)."
+  },
+  {
+    "section_title": "6.4.5.",
+    "page_label": "48",
+    "content": "The expected duration of subject participation, and a description of the sequence and duration of all \ntrial periods, including follow-up, if any."
+  },
+  {
+    "section_title": "6.4.6.",
+    "page_label": "48",
+    "content": "A description of the \"stopping rules\" or \"discontinuation criteria\" for individual subjects, parts of trial \nand entire trial."
+  },
+  {
+    "section_title": "6.4.7.",
+    "page_label": "48",
+    "content": "Accountability procedures for the investigational product(s), including the placebo(s) and \ncomparator(s), if any."
+  },
+  {
+    "section_title": "6.4.8.",
+    "page_label": "48",
+    "content": "Maintenance of trial treatment randomization codes and procedures for breaking codes."
+  },
+  {
+    "section_title": "6.4.9.",
+    "page_label": "48",
+    "content": "The identification of any data to be recorded directly on the CRFs (i.e. no prior written or electronic \nrecord of data), and to be considered to be source data."
+  },
+  {
+    "section_title": "6.5.1.",
+    "page_label": "48",
+    "content": "Subject inclusion criteria."
+  },
+  {
+    "section_title": "6.5.2.",
+    "page_label": "48",
+    "content": "Subject exclusion criteria."
+  },
+  {
+    "section_title": "6.5.3.",
+    "page_label": "48",
+    "content": "Subject withdrawal criteria (i.e. terminating investigational product treatment/trial treatment) and \nprocedures specifying: \na) When and how to withdraw subjects from the trial/ investigational product treatment. \nb) The type and timing of the data to be collected for withdrawn subjects. \nc) Whether and how subjects are to be replaced."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "49",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 49/68 \n \n \nd) The follow-up for subjects withdrawn from investigational product treatment/trial treatment."
+  },
+  {
+    "section_title": "6.6.1.",
+    "page_label": "49",
+    "content": "The treatment(s) to be administered, including the name(s) of all the product(s), the dose(s), the \ndosing schedule(s), the route/mode(s) of administration, and the treatment period(s), including the \nfollow-up period(s) for subjects for each investigational product treatment/trial treatment group/arm of \nthe trial."
+  },
+  {
+    "section_title": "6.6.2.",
+    "page_label": "49",
+    "content": "Medication(s)/treatment(s) permitted (including rescue medication) and not permitted before and/or \nduring the trial."
+  },
+  {
+    "section_title": "6.6.3.",
+    "page_label": "49",
+    "content": "Procedures for monitoring subject compliance."
+  },
+  {
+    "section_title": "6.7.1.",
+    "page_label": "49",
+    "content": "Specification of the efficacy parameters."
+  },
+  {
+    "section_title": "6.7.2.",
+    "page_label": "49",
+    "content": "Methods and timing for assessing, recording, and analysing of efficacy parameters."
+  },
+  {
+    "section_title": "6.8.1.",
+    "page_label": "49",
+    "content": "Specification of safety parameters."
+  },
+  {
+    "section_title": "6.8.2.",
+    "page_label": "49",
+    "content": "The methods and timing for assessing, recording, and analysing safety parameters."
+  },
+  {
+    "section_title": "6.8.3.   \nProcedures for eliciting reports of and for recording and reporting adverse event and intercurrent",
+    "page_label": "49",
+    "content": "illnesses."
+  },
+  {
+    "section_title": "6.8.4.",
+    "page_label": "49",
+    "content": "The type and duration of the follow-up of subjects after adverse events."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "50",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 50/68"
+  },
+  {
+    "section_title": "6.9.1.",
+    "page_label": "50",
+    "content": "A description of the statistical methods to be employed, including timing of any planned interim \nanalysis(ses)."
+  },
+  {
+    "section_title": "6.9.2.",
+    "page_label": "50",
+    "content": "The number of subjects planned to be enrolled. In multicentre trials, the numbers of enrolled subjects \nprojected for each trial site should be specified. Reason for choice of sample size, including reflections \non (or calculations of) the power of the trial and clinical justification."
+  },
+  {
+    "section_title": "6.9.3.",
+    "page_label": "50",
+    "content": "The level of significance to be used."
+  },
+  {
+    "section_title": "6.9.4.",
+    "page_label": "50",
+    "content": "Criteria for the termination of the trial."
+  },
+  {
+    "section_title": "6.9.5.",
+    "page_label": "50",
+    "content": "Procedure for accounting for missing, unused, and spurious data."
+  },
+  {
+    "section_title": "6.9.6.",
+    "page_label": "50",
+    "content": "Procedures for reporting any deviation(s) from the original statistical plan (any deviation(s) from the \noriginal statistical plan should be described and justified in protocol and/or in the final report, as \nappropriate)."
+  },
+  {
+    "section_title": "6.9.7.",
+    "page_label": "50",
+    "content": "The selection of subjects to be included in the analyses (e.g. all randomized subjects, all dosed \nsubjects, all eligible subjects, evaluable subjects). \n6.10.  Direct access to source data/documents \nThe sponsor should ensure that it is specified in the protocol or other written agreement that the \ninvestigator(s)/institution(s) will permit trial-related monitoring, audits, IRB/IEC review, and regulatory \ninspection(s), providing direct access to source data/documents."
+  },
+  {
+    "section_title": "6.12.  Ethics",
+    "page_label": "50",
+    "content": "Description of ethical considerations relating to the trial."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "51",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 51/68"
+  },
+  {
+    "section_title": "6.14.  Financing and insurance",
+    "page_label": "51",
+    "content": "Financing and insurance if not addressed in a separate agreement."
+  },
+  {
+    "section_title": "6.15.  Publication policy",
+    "page_label": "51",
+    "content": "Publication policy, if not addressed in a separate agreement."
+  },
+  {
+    "section_title": "6.16.  Supplements",
+    "page_label": "51",
+    "content": "(NOTE: Since the protocol and the clinical trial/study report are closely related, further relevant \ninformation can be found in the ICH Guideline for Structure and Content of Clinical Study Reports.)"
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "52",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 52/68 \n \n \n7.  Investigator’s brochure"
+  },
+  {
+    "section_title": "7.1.  Introduction",
+    "page_label": "52",
+    "content": "The Investigator's Brochure (IB) is a compilation of the clinical and nonclinical data on the \ninvestigational product(s) that are relevant to the study of the product(s) in human subjects. Its \npurpose is to provide the investigators and others involved in the trial with the information to facilitate \ntheir understanding of the rationale for, and their compliance with, many key features of the protocol, \nsuch as the dose, dose frequency/interval, methods of administration: and safety monitoring \nprocedures. The IB also provides insight to support the clinical management of the study subjects \nduring the course of the clinical trial. The information should be presented in a concise, simple, \nobjective, balanced, and non-promotional form that enables a clinician, or potential investigator, to \nunderstand it and make his/her own unbiased risk-benefit assessment of the appropriateness of the \nproposed trial. For this reason, a medically qualified person should generally participate in the editing \nof an IB, but the contents of the IB should be approved by the disciplines that generated the described \ndata. \nThis guideline delineates the minimum information that should be included in an IB and provides \nsuggestions for its layout. It is expected that the type and extent of information available will vary with \nthe stage of development of the investigational product. If the investigational product is marketed and \nits pharmacology is widely understood by medical practitioners, an extensive IB may not be necessary. \nWhere permitted by regulatory authorities, a basic product information brochure, package leaflet, or \nlabelling may be an appropriate alternative, provided that it includes current, comprehensive, and \ndetailed information on all aspects of the investigational product that might be of importance to the \ninvestigator. If a marketed product is being studied for a new use (i.e., a new indication), an IB \nspecific to that new use should be prepared. The IB should be reviewed at least annually and revised \nas necessary in compliance with a sponsor's written procedures. More frequent revision may be \nappropriate depending on the stage of development and the generation of relevant new information. \nHowever, in accordance with Good Clinical Practice, relevant new information may be so important that \nit should be communicated to the investigators, and possibly to the Institutional Review Boards \n(IRBs)/Independent Ethics Committees (IECs) and/or regulatory authorities before it is included in a \nrevised IB. \nGenerally, the sponsor is responsible for ensuring that an up-to-date IB is made available to the \ninvestigator(s) and the investigators are responsible for providing the up-to-date IB to the responsible \nIRBs/IECs. In the case of an investigator sponsored trial, the sponsor-investigator should determine \nwhether a brochure is available from the commercial manufacturer. If the investigational product is \nprovided by the sponsor-investigator, then he or she should provide the necessary information to the \ntrial personnel. In cases where preparation of a formal IB is impractical, the sponsor- investigator \nshould provide, as a substitute, an expanded background information section in the trial protocol that \ncontains the minimum current information described in this guideline."
+  },
+  {
+    "section_title": "7.2.  General considerations",
+    "page_label": "52",
+    "content": "The IB should include:"
+  },
+  {
+    "section_title": "7.2.1.  Title page",
+    "page_label": "52",
+    "content": "This should provide the sponsor's name, the identity of each investigational product (i.e., research \nnumber, chemical or approved generic name, and trade name(s) where legally permissible and desired"
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "53",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 53/68 \n \n \nby the sponsor), and the release date. It is also suggested that an edition number, and a reference to \nthe number and date of the edition it supersedes, be provided. An example is given in Appendix 1."
+  },
+  {
+    "section_title": "7.2.2.  Confidentiality statement",
+    "page_label": "53",
+    "content": "The sponsor may wish to include a statement instructing the investigator/recipients to treat the IB as a \nconfidential document for the sole information and use of the investigator's team and the IRB/IEC. \n7.3.  Contents of the investigator’s brochure \nThe IB should contain the following sections, each with literature references where appropriate:"
+  },
+  {
+    "section_title": "7.3.2.  Summary",
+    "page_label": "53",
+    "content": "A brief summary (preferably not exceeding two pages) should be given, highlighting the significant \nphysical, chemical, pharmaceutical, pharmacological, toxicological, pharmacokinetic, metabolic, and \nclinical information available that is relevant to the stage of clinical development of the investigational \nproduct."
+  },
+  {
+    "section_title": "7.3.3.  Introduction",
+    "page_label": "53",
+    "content": "A brief introductory statement should be provided that contains the chemical name (and generic and \ntrade name(s) when approved) of the investigational product(s), all active ingredients, the \ninvestigational product (s ) pharmacological class and its expected position within this class (e.g. \nadvantages), the rationale for performing research with the investigational product(s), and the \nanticipated prophylactic, therapeutic, or diagnostic indication(s). Finally, the introductory statement \nshould provide the general approach to be followed in evaluating the investigational product. \n7.3.4.  Physical, chemical, and pharmaceutical properties and formulation \nA description should be provided of the investigational product substance(s) (including the chemical \nand/or structural formula(e)), and a brief summary should be given of the relevant physical, chemical, \nand pharmaceutical properties. \nTo permit appropriate safety measures to be taken in the course of the trial, a description of the \nformulation(s) to be used, including excipients, should be provided and justified if clinically relevant. \nInstructions for the storage and handling of the dosage form(s) should also be given. \nAny structural similarities to other known compounds should be mentioned."
+  },
+  {
+    "section_title": "7.3.5.  Nonclinical studies",
+    "page_label": "53",
+    "content": "Introduction: \nThe results of all relevant nonclinical pharmacology, toxicology, pharmacokinetic, and investigational \nproduct metabolism studies should be provided in summary form. This summary should address the \nmethodology used, the results, and a discussion of the relevance of the findings to the investigated \ntherapeutic and the possible unfavourable and unintended effects in humans."
+  },
+  {
+    "section_title": "Full Document",
+    "page_label": "54",
+    "content": " \n \n \nGuideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 54/68 \n \n \n The information provided may include the following, as appropriate, if known/available: \n Species tested \n Number and sex of animals in each group \n Unit dose (e.g., milligram/kilogram (mg/kg)) \n Dose interval \n Route of administration \n Duration of dosing \n Information on systemic distribution \n Duration of post-exposure follow-up \n Results, including the following aspects: \n Nature and frequency of pharmacological or toxic effects \n Severity or intensity of pharmacological or toxic effects \n Time to onset of effects \n Reversibility of effects \n Duration of effects \n Dose response \nTabular format/listings should be used whenever possible to enhance the clarity of the presentation. \nThe following sections should discuss the most important findings from the studies, including the dose \nresponse of observed effects, the relevance to humans, and any aspects to be studied in humans. If \napplicable, the effective and nontoxic dose findings in the same animal species should be compared \n(i.e., the therapeutic index should be discussed). The relevance of this information to the proposed \nhuman dosing should be addressed. Whenever possible, comparisons should be made in terms of \nblood/tissue levels rather than on a mg/kg basis. \na) Nonclinical pharmacology \nA summary of the pharmacological aspects of the investigational product and, where appropriate, its \nsignificant metabolites studied in animals, should be included. Such a summary should incorporate \nstudies that assess potential therapeutic activity (e.g. efficacy models, receptor binding, and \nspecificity) as well as those that assess safety (e.g., special studies to assess pharmacological actions \nother than the intended therapeutic effect(s)). \nb) Pharmacokinetics and product metabolism in animals \nA summary of the pharmacokinetics and biological transformation and disposition of the investigational \nproduct in all species studied should be given. The discussion of the findings should address the \nabsorption and the local and systemic bioavailability of the investigational product and its metabolites, \nand their relationship to the pharmacological and toxicological findings in animal species. \nc) Toxicology \nA summary of the toxicological effects found in relevant studies conducted in different animal species \nshould be described under the following headings where appropriate: "
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "55",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 55/68 \n \n \n Single dose \n Repeated dose \n Carcinogenicity \n Special studies (e.g. irritancy and sensitisation) \n Reproductive toxicity \n Genotoxicity (mutagenicity)"
+  },
+  {
+    "section_title": "7.3.6.  Effects in humans",
+    "page_label": "55",
+    "content": "Introduction: \nA thorough discussion of the known effects of the investigational product(s) in humans should be \nprovided, including information on pharmacokinetics, metabolism, pharmacodynamics, dose response, \nsafety, efficacy, and other pharmacological activities. Where possible, a summary of each completed \nclinical trial should be provided. Information should also be provided regarding results of any use of \nthe investigational product(s) other than from in clinical trials, such as from experience during \nmarketing. \na) Pharmacokinetics and product metabolism in humans \n A summary of information on the pharmacokinetics of the investigational product(s) should be \npresented, including the following, if available: \n Pharmacokinetics (including metabolism, as appropriate, and absorption, plasma protein binding, \ndistribution, and elimination). \n Bioavailability of the investigational product (absolute, where possible, and/or relative) using a \nreference dosage form. \n Population subgroups (e.g., gender, age, and impaired organ function). \n Interactions (e.g., product-product interactions and effects of food). \n Other pharmacokinetic data (e.g., results of population studies performed within clinical trial(s). \nb) Safety and efficacy \nA summary of information should be provided about the investigational product's/products' (including \nmetabolites, where appropriate) safety, pharmacodynamics, efficacy, and dose response that were \nobtained from preceding trials in humans (healthy volunteers and/or patients). The implications of this \ninformation should be discussed. In cases where a number of clinical trials have been completed, the \nuse of summaries of safety and efficacy across multiple trials by indications in subgroups may provide \na clear presentation of the data. Tabular summaries of adverse drug reactions for all the clinical trials \n(including those for all the studied indications) would be useful. Important differences in adverse drug \nreaction patterns/incidences across indications or subgroups should be discussed. \nThe IB should provide a description of the possible risks and adverse drug reactions to be anticipated \non the basis of prior experiences with the product under investigation and with related products. A \ndescription should also be provided of the precautions or special monitoring to be done as part of the \ninvestigational use of the product(s). \nc) Marketing experience"
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "56",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 56/68 \n \n \nThe IB should identify countries where the investigational product has been marketed or approved. \nAny significant information arising from the marketed use should be summarised (e.g., formulations, \ndosages, routes of administration, and adverse product reactions). The IB should also identify all the \ncountries where the investigational product did not receive approval/registration for marketing or was \nwithdrawn from marketing/registration."
+  },
+  {
+    "section_title": "7.3.7.  Summary of Data and Guidance for the Investigator",
+    "page_label": "56",
+    "content": "This section should provide an overall discussion of the nonclinical and clinical data, and should \nsummarise the information from various sources on different aspects of the investigational product(s), \nwherever possible. In this way, the investigator can be provided with the most informative \ninterpretation of the available data and with an assessment of the implications of the information for \nfuture clinical trials. \nWhere appropriate, the published reports on related products should be discussed. This could help the \ninvestigator to anticipate adverse drug reactions or other problems in clinical trials. \nThe overall aim of this section is to provide the investigator with a clear understanding of \nthe possible risks and adverse reactions, and of the specific tests, observations, and \nprecautions that may be needed for a clinical trial. This understanding should be based on \nthe available physical, chemical, pharmaceutical, pharmacological, toxicological, and clinical \ninformation on the investigational product(s). Guidance should also be provided to the \nclinical investigator on the recognition and treatment of possible overdose and adverse drug \nreactions that is based on previous human experience and on the pharmacology of the \ninvestigational product."
+  },
+  {
+    "section_title": "Full Document",
+    "page_label": "57",
+    "content": " \n \n \nGuideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 57/68 \n \n \n7.4.  Appendix 1: \n \nTITLE PAGE (Example) \nSPONSOR'S NAME \nProduct:  \nResearch Number:  \nName(s): Chemical, Generic (if approved)  \nTrade Name(s) (if legally permissible and desired by the sponsor)  \n \n \nINVESTIGATOR'S BROCHURE \n \n \n \nEdition Number: \nRelease Date: \n \n \nReplaces Previous Edition Number: Date: \n  "
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "58",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 58/68 \n \n \n7.5.  Appendix 2: \n \nTABLE OF CONTENTS OF INVESTIGATOR'S BROCHURE (Example) \n \n \n \n- Confidentiality Statement (optional)......................................................... \n \n- Signature Page (optional)........................................................................ \n \n1 Table of Contents................................................................................... \n \n2 Summary............................................................................................. \n \n3 Introduction.......................................................................................... \n \n4 Physical, Chemical, and Pharmaceutical Properties and Formulation.............. \n \n5 Nonclinical Studies................................................................................. \n \n5.1 Nonclinical Pharmacology........................................................................ \n \n5.2 Pharmacokinetics and Product Metabolism in Animals.................................. \n \n5.3 Toxicology............................................................................................ \n \n6 Effects in Humans................................................................................. \n \n6.1 Pharmacokinetics and Product Metabolism in Humans................................. \n \n6.2 Safety and Efficacy................................................................................ \n \n6.3 Marketing Experience............................................................................. \n \n7 Summary of Data and Guidance for the Investigator................................... \n \n \n \nNB: References on 1. Publications"
+  },
+  {
+    "section_title": "2. Reports \n \nThese references should be found at the end of each chapter",
+    "page_label": "58",
+    "content": "Appendices (if any)"
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "59",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 59/68"
+  },
+  {
+    "section_title": "8.1.  Introduction",
+    "page_label": "59",
+    "content": "Essential Documents are those documents which individually and collectively permit evaluation of the conduct of a trial and the quality of the data produced. \nThese documents serve to demonstrate the compliance of the investigator, sponsor and monitor with the standards of Good Clinical Practice and with all \napplicable regulatory requirements. \nEssential Documents also serve a number of other important purposes. Filing essential documents at the investigator/institution and sponsor sites in a \ntimely manner can greatly assist in the successful management of a trial by the investigator, sponsor and monitor. These documents are also the ones which \nare usually audited by the sponsor's independent audit function and inspected by the regulatory authority(ies) as part of the process to confirm the validity \nof the trial conduct and the integrity of data collected. \nThe minimum list of essential documents which has been developed follows. The various documents are grouped in three sections according to the stage of \nthe trial during which they will normally be generated: 1) before the clinical phase of the trial commences, 2) during the clinical conduct of the trial, and 3) \nafter completion or termination of the trial. A description is given of the purpose of each document, and whether it should be filed in either the \ninvestigator/institution or sponsor files, or both. It is acceptable to combine some of the documents, provided the individual elements are readily identifiable. \nTrial master files should be established at the beginning of the trial, both at the investigator/institution’s site and at the sponsor's office. A final close-out of \na trial can only be done when the monitor has reviewed both investigator/institution and sponsor files and confirmed that all necessary documents are in the \nappropriate files. \nAny or all of the documents addressed in this guideline may be subject to, and should be available for, audit by the sponsor’s auditor and inspection by the \nregulatory authority(ies). \nADDENDUM \nThe sponsor and investigator/institution should maintain a record of the location(s) of their respective essential documents including source documents. The \nstorage system used during the trial and for archiving (irrespective of the type of media used) should provide for document identification, version history, \nsearch, and retrieval. \nEssential documents for the trial should be supplemented or may be reduced where justified (in advance of trial initiation) based on the importance and \nrelevance of the specific documents to the trial."
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "60",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 60/68 \n \n \nThe sponsor should ensure that the investigator has control of and continuous access to the CRF data reported to the sponsor. The sponsor should not have \nexclusive control of those data. \nWhen a copy is used to replace an original document (e.g., source documents, CRF), the copy should fulfill the requirements for certified copies. \nThe investigator/institution should have control of all essential documents and records generated by the investigator/institution before, during, and after the \ntrial."
+  },
+  {
+    "section_title": "8.2.  Before the clinical phase of the trial commences \nDuring this planning stage the following documents should be generated and should be on file before the trial formally start \n Title of Document Purpose \nLocated in Files of \nInvestigator",
+    "page_label": "60",
+    "content": "/Institution Sponsor \n8.2.1  INVESTIGATOR’S BROCHURE  To document that relevant and current scientific \ninformation about the investigational product has been \nprovided to the investigator  \nX X \n8.2.2  SIGNED PROTOCOL AND AMENDMENTS, IF \nANY, AND SAMPLE CASE REPORT FORM \n(CRF)  \nTo document investigator and sponsor agreement to the \nprotocol/amendment(s) and CRF  \nX X \n8.2.3  INFORMATION GIVEN TO TRIAL SUBJECT  \n- INFORMED CONSENT FORM  \n(including all applicable translations)  \nTo document the informed consent  X X \n - ANY OTHER WRITTEN INFORMATION  \n \nTo document that subjects will be given appropriate \nwritten information (content and wording) to support their \nability to give fully informed consent  \nX X \n - ADVERTISEMENT FOR SUBJECT \nRECRUITMENT (if used)  \n \nTo document that recruitment measures are appropriate \nand not coercive \nX  \n8.2.4 FINANCIAL ASPECTS OF THE TRIAL To document the financial agreement between the \ninvestigator/institution and the sponsor for the trial  \n \nX X"
+  },
+  {
+    "section_title": "Full Document",
+    "page_label": "61",
+    "content": " \n \n \nGuideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 61/68 \n \n \n Title of Document Purpose \nLocated in Files of \nInvestigator\n/Institution Sponsor \n8.2.5  INSURANCE STATEMENT  \n(where required)  \nTo document that compensation to subject(s) for trial-\nrelated injury will be available  \n \nX X \n8.2.6  SIGNED AGREEMENT BETWEEN INVOLVED \nPARTIES, e.g.:  \n- investigator/institution and sponsor  \n- investigator/institution and CRO  \n- sponsor and CRO  \n- investigator/institution and authority(ies) \n(where required)  \nTo document agreements  \n \n \n \nX \nX \n \nX \n \n \nX \nX (where \nrequired) \nX \nX \n8.2.7 DATED, DOCUMENTED \nAPPROVAL/FAVOURABLE OPINION OF \nINSTITUTIONAL REVIEW BOARD (IRB) \n/INDEPENDENT ETHICS COMMITTEE (IEC) \nOF THE FOLLOWING:  \n- protocol and any amendments  \n- CRF (if applicable)  \n- informed consent form(s)  \n- any other written information to be provided to \nthe subject(s)  \n- advertisement for subject recruitment  \n(if used)  \n- subject compensation (if any)  \n- any other documents given approval/ \nfavourable opinion  \n \n \nTo document that the trial has been subject to  \nIRB/IEC review and given approval/favourable opinion. To \nidentify the version number and date of the document(s)  \nX X "
+  },
+  {
+    "section_title": "Full Document",
+    "page_label": "62",
+    "content": " \n \n \nGuideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 62/68 \n \n \n Title of Document Purpose \nLocated in Files of \nInvestigator\n/Institution Sponsor \n8.2.8  INSTITUTIONAL REVIEW \nBOARD/INDEPENDENT ETHICS COMMITTEE \nCOMPOSITION  \nTo document that the IRB/IEC is constituted in agreement \nwith GCP  \nX X \n(where \nrequired) \n8.2.9  REGULATORY AUTHORITY(IES)  \nAUTHORISATION/APPROVAL/  \nNOTIFICATION OF PROTOCOL  \n(where required)  \nTo document appropriate \nauthorisation/approval/notification by the regulatory \nauthority(ies) has been obtained prior to initiation of the \ntrial in compliance with the applicable regulatory \nrequirement(s)  \nX \n(where \nrequired) \nX \n(where \nrequired) \n8.2.10 CURRICULUM VITAE AND/OR OTHER \nRELEVANT DOCUMENTS EVIDENCING \nQUALIFICATIONS OF INVESTIGATOR(S) \nAND SUB-INVESTIGATOR(S)  \n \nTo document qualifications and eligibility to conduct trial \nand/or provide medical supervision of subjects  \n \nX \n \nX \n \n8.2.11  \n \nNORMAL VALUE(S)/RANGE(S) FOR \nMEDICAL/ LABORATORY/TECHNICAL \nPROCEDURE(S) AND/OR TEST(S) INCLUDED \nIN THE PROTOCOL  \n \nTo document normal values and/or ranges of the tests  \n \nX \n \nX \n \n8.2.12  MEDICAL/LABORATORY/TECHNICAL \nPROCEDURES /TESTS  \n- certification or  \n- accreditation or  \n- established quality control and/or external \nquality assessment or  \n- other validation (where required)  \n \n \nTo document competence of facility to perform required \ntest(s), and support reliability of results  \nX \n(where \nrequired) \nX \n "
+  },
+  {
+    "section_title": "Full Document",
+    "page_label": "63",
+    "content": " \n \n \nGuideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 63/68 \n \n \n Title of Document Purpose \nLocated in Files of \nInvestigator\n/Institution Sponsor \n8.2.13  SAMPLE OF LABEL(S) ATTACHED TO \nINVESTIGATIONAL PRODUCT \nCONTAINER(S)  \nTo document compliance with applicable labelling \nregulations and appropriateness of instructions provided to \nthe subjects  \n X \n \n8.2.14 INSTRUCTIONS FOR HANDLING OF \nINVESTIGATIONAL PRODUCT(S) AND \nTRIAL-RELATED MATERIALS  \n(if not included in protocol or Investigator’s \nBrochure) \nTo document instructions needed to ensure proper \nstorage, packaging, dispensing and disposition of \ninvestigational products and trial-related materials \nX \n \nX \n \n8.2.15 SHIPPING RECORDS FOR \nINVESTIGATIONAL PRODUCT(S) AND \nTRIAL-RELATED MATERIALS  \n \nTo document shipment dates, batch numbers and method \nof shipment of investigational product(s) and trial-related \nmaterials. Allows tracking of product batch, review of \nshipping conditions, and accountability  \n \nX \n \nX \n \n8.2.16 CERTIFICATE(S) OF ANALYSIS OF \nINVESTIGATIONAL PRODUCT(S) SHIPPED  \n \nTo document identity, purity, and strength of \ninvestigational product(s) to be used in the trial  \n \n X \n \n8.2.17 DECODING PROCEDURES FOR BLINDED \nTRIALS  \n \nTo document how, in case of an emergency, identity of \nblinded investigational product can be revealed without \nbreaking the blind for the remaining subjects' treatment \nX X \n(third party \nif applicable) \n8.2.18  MASTER RANDOMISATION LIST  To document method for randomisation of trial population   X \n(third party \nif applicable) \n8.2.19  PRE-TRIAL MONITORING REPORT  To document that the site is suitable for the trial (may be \ncombined with 8.2.20)  \n X \n \n8.2.20  TRIAL INITIATION MONITORING REPORT  To document that trial procedures were reviewed with the \ninvestigator and the investigator’s trial staff ( may be \ncombined with 8.2.19)  \nX X "
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "64",
+    "content": "Guideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 64/68"
+  },
+  {
+    "section_title": "8.3.  During the Clinical Conduct of the Trial",
+    "page_label": "64",
+    "content": "In addition to having on file the above documents, the following should be added to the files during the trial as evidence that all new relevant \ninformation is documented as it becomes available \n \n Title of Document Purpose \nLocated in Files of \nInvestigator\n/Institution Sponsor \n8.3.1 INVESTIGATOR’S BROCHURE UPDATES To document that investigator is informed in a timely \nmanner of relevant information as it becomes available \nX X \n8.3.2  \n \nANY REVISION TO:  \n- protocol/amendment(s) and CRF  \n- informed consent form  \n- any other written information provided to \nsubjects  \n- advertisement for subject recruitment  \n(if used)  \nTo document revisions of these trial related documents \nthat take effect during trial  \n \nX X \n8.3.3  \n \nDATED, DOCUMENTED \nAPPROVAL/FAVOURABLE OPINION OF \nINSTITUTIONAL REVIEW BOARD (IRB) \n/INDEPENDENT ETHICS COMMITTEE (IEC) \nOF THE FOLLOWING:  \n- protocol amendment(s)  \n- revision(s) of:  \ninformed consent form  \nany other written information to be provided to \nthe subject  \nadvertisement for subject recruitment  \n(if used)  \n- any other documents given approval/favourable \nTo document that the amendment(s) and/or revision(s) \nhave been subject to IRB/IEC review and were given \napproval/favourable opinion. To identify the version \nnumber and date of the document(s). \nX X"
+  },
+  {
+    "section_title": "Full Document",
+    "page_label": "65",
+    "content": " \n \n \nGuideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 65/68 \n \n \nopinion  \n- continuing review of trial (where required)  \n Title of Document Purpose \nLocated in Files of \nInvestigator\n/Institution Sponsor \n8.3.4 REGULATORY AUTHORITY(IES) \nAUTHORISATIONS/APPROVALS/NOTIFICAT\nIONS WHERE REQUIRED FOR:  \n- protocol amendment(s) and other documents  \nTo document compliance with applicable regulatory \nrequirements \nX \n(where \nrequired) \nX \n \n8.3.5 CURRICULUM VITAE FOR NEW \nINVESTIGATOR(S) AND/OR SUB-\nINVESTIGATOR(S)  \n \n(see 8.2.10) X \n \nX \n \n8.3.6 UPDATES TO NORMAL VALUE(S)/RANGE(S) \nFOR MEDICAL/ LABORATORY/ TECHNICAL \nPROCEDURE(S)/TEST(S) INCLUDED IN THE \nPROTOCOL  \n \nTo document normal values and ranges that are revised \nduring the trial (see 8.2.11) \nX \n \nX \n \n8.3.7  \n \nUPDATES OF MEDICAL/LABORATORY/ \nTECHNICAL PROCEDURES/TESTS  \n- certification or  \n- accreditation or  \n- established quality control and/or external \nquality assessment or  \n- other validation (where required)  \nTo document that tests remain adequate throughout the \ntrial period (see 8.2.12) \nX \n(where \nrequired) \nX \n \n8.3.8  \n \nDOCUMENTATION OF INVESTIGATIONAL \nPRODUCT(S) AND TRIAL-RELATED \nMATERIALS SHIPMENT  \n(see 8.2.15.) X \n \nX \n \n8.3.9  \n \nCERTIFICATE(S) OF ANALYSIS FOR NEW \nBATCHES OF INVESTIGATIONAL PRODUCTS  \n(see 8.2.16)  X "
+  },
+  {
+    "section_title": "Full Document",
+    "page_label": "66",
+    "content": " \n \n \nGuideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 66/68 \n \n \n Title of Document Purpose \nLocated in Files of \nInvestigator\n/Institution Sponsor \n8.3.10  \n \nMONITORING VISIT REPORTS  \n \nTo document site visits by, and findings of, the monitor  X \n8.3.11  \n \nRELEVANT COMMUNICATIONS OTHER THAN \nSITE VISITS  \n- letters  \n- meeting notes  \n- notes of telephone calls  \nTo document any agreements or significant discussions \nregarding trial administration, protocol violations, trial \nconduct, adverse event (AE) reporting  \n \nX \n \nX \n \n8.3.12  \n \nSIGNED INFORMED CONSENT FORMS  \n \nTo document that consent is obtained in accordance with \nGCP and protocol and dated prior to participation of each \nsubject in trial. Also to document direct access permission \n(see 8.2.3)  \n \nX  \n8.3.13  SOURCE DOCUMENTS  To document the existence of the subject and substantiate \nintegrity of trial data collected. To include original \ndocuments related to the trial, to medical treatment, and \nhistory of subject  \nX  \n8.3.14  SIGNED, DATED AND COMPLETED  \nCASE REPORT FORMS (CRF)  \nTo document that the investigator or authorised member \nof the investigator’s staff confirms the observations \nrecorded  \nX \n(copy) \nX \n(original) \n8.3.15  DOCUMENTATION OF CRF CORRECTIONS  To document all changes/additions or corrections made to \nCRF after initial data were recorded  \nX \n(copy) \nX \n(original) \n8.3.16  \n \nNOTIFICATION BY ORIGINATING \nINVESTIGATOR TO SPONSOR OF SERIOUS \nADVERSE EVENTS AND RELATED REPORTS  \n \n \n \nNotification by originating investigator to sponsor of \nserious adverse events and related reports in accordance \nwith 4.11  \n \nX \n \nX \n "
+  },
+  {
+    "section_title": "Full Document",
+    "page_label": "67",
+    "content": " \n \n \nGuideline for good clinical practice E6(R2)   \nEMA/CHMP/ICH/135/1995  Page 67/68 \n \n \n Title of Document Purpose \nLocated in Files of \nInvestigator\n/Institution Sponsor \n8.3.17  NOTIFICATION BY SPONSOR AND/OR \nINVESTIGATOR, WHERE APPLICABLE, TO \nREGULATORY AUTHORITY(IES) AND \nIRB(S)/IEC(S) OF UNEXPECTED SERIOUS \nADVERSE DRUG REACTIONS AND OF OTHER \nSAFETY INFORMATION  \nNotification by sponsor and/or investigator, where \napplicable, to regulatory authorities and IRB(s)/IEC(s) of \nunexpected serious adverse drug reactions in accordance \nwith 5.17 and 4.11.1 and of other safety information in \naccordance with 5.16.2 and 4.11.2  \nX \n(where \nrequired) \nX \n8.3.18  NOTIFICATION BY SPONSOR TO \nINVESTIGATORS OF SAFETY INFORMATION  \nNotification by sponsor to investigators of safety \ninformation in accordance with 5.16.2  \nX X \n8.3.19  INTERIM OR ANNUAL REPORTS TO IRB/IEC \nAND AUTHORITY(IES)  \nInterim or annual reports provided to IRB/IEC in \naccordance with 4.10 and to authority(ies) in accordance \nwith 5.17.3  \nX X \n(where \nrequired) \n8.3.20  SUBJECT SCREENING LOG  To document identification of subjects who entered pre-\ntrial screening  \nX X \n(where \nrequired) \n8.3.21  SUBJECT IDENTIFICATION CODE LIST  To document that investigator/institution keeps a \nconfidential list of names of all subjects allocated to trial \nnumbers on enrolling in the trial. Allows \ninvestigator/institution to reveal identity of any subject  \nX  \n8.3.22  SUBJECT ENROLMENT LOG  To document chronological enrolment of subjects by trial \nnumber  \nX  \n8.3.23  INVESTIGATIONAL PRODUCTS \nACCOUNTABILITY AT THE SITE  \nTo document that investigational product(s) have been \nused according to the protocol  \nX X \n8.3.24  SIGNATURE SHEET  To document signatures and initials of all persons \nauthorised to make entries and/or corrections on CRFs  \nX X \n8.3.25  RECORD OF RETAINED BODY FLUIDS/ \nTISSUE SAMPLES (IF ANY)  \nTo document location and identification of retained \nsamples if assays need to be repeated  \nX X "
+  },
+  {
+    "section_title": "Document Start",
+    "page_label": "68",
+    "content": "Guideline for good clinical practice E6(R2) \nEMA/CHMP/ICH/135/1995  Page 68/68"
+  },
+  {
+    "section_title": "8.4.  After Completion or Termination of the Trial",
+    "page_label": "68",
+    "content": "After completion or termination of the trial, all of the documents identified in sections 8.2 and 8.3 should be in the file together with the following \nTitle of Document Purpose \nLocated in Files of \nInvestigator\n/Institution Sponsor \n8.4.1 INVESTIGATIONAL PRODUCT(S) \nACCOUNTABILITY AT SITE  \nTo document that the investigational product(s) have been \nused according to the protocol. To documents the final \naccounting of investigational product(s) received at the \nsite, dispensed to subjects, returned by the subjects, and \nreturned to sponsor \nX X \n8.4.2 DOCUMENTATION OF INVESTIGATIONAL \nPRODUCT DESTRUCTION  \nTo document destruction of unused investigational \nproducts by sponsor or at site  \nX \n(if destroyed \nat site) \nX \n8.4.3 COMPLETED SUBJECT IDENTIFICATION \nCODE LIST  \nTo permit identification of all subjects enrolled in the trial \nin case follow-up is required. List should be kept in a \nconfidential manner and for agreed upon time  \nX \n8.4.4 AUDIT CERTIFICATE (if available) To document that audit was performed X \n8.4.5 FINAL TRIAL CLOSE-OUT MONITORING \nREPORT  \nTo document that all activities required for trial close-out \nare completed, and copies of essential documents are held \nin the appropriate files  \nX \n8.4.6 TREATMENT ALLOCATION AND \nDECODING DOCUMENTATION  \nReturned to sponsor to document any decoding that may \nhave occurred  \nX \n8.4.7 FINAL REPORT BY INVESTIGATOR TO \nIRB/IEC WHERE REQUIRED, AND WHERE \nAPPLICABLE, TO THE REGULATORY \nAUTHORITY(IES)  \nTo document completion of the trial X \n8.4.8 CLINICAL STUDY REPORT To document results and interpretation of trial X \n(if applicable) \nX"
+  }
+]
