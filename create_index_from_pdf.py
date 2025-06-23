@@ -21,7 +21,15 @@ class SectionNodeParser(NodeParser):
     """
     section_heading_pattern: str = Field(
         # The most robust regex for your document's numeric and indented headings
-        default=r"^\s*(\d+(\.\d+)*)\s{1,}([^\n]*)$", 
+        # default=r"^(Chapter\s+\d+:[\s\w]+|(\d+\.)+\s+[\w\s]+|((\d+\.)+\s*.*))$",
+        # default=r"^(Chapter\s+\d+:[\s\w]+|(\d+\.)+\s*.*)$",
+        # default=r"^(Chapter\s+\d+:[\s\w]+|(\d+\.)+\s*.*)|((\d+\.)+\s*[^\n]*)$",
+        # default=r"^((\d+\.)+\s*[\w\s\(\)\-]*)$",
+        # default=r"^\s*((\d+\.)+\s*[\w\s\(\)\-]*)$",
+        # default=r"^.*?((\d+\.)+\s*[\w\s\(\)\-]*)$",
+        # default=r"^\s*(\d+(\.\s*)?)+\s*[^\n]*$",
+        # default=r"^\s*(\d+(\.\s*)?)+\s*[^\n]*$"
+        default=r"^\s*(\d+(\.\d+)*)\s{1,}([^\n]*)$",
         description="Regular expression pattern to identify section headings."
     )
     include_text_in_metadata: bool = Field(
@@ -44,7 +52,7 @@ class SectionNodeParser(NodeParser):
             self.section_heading_pattern = self.__fields__["section_heading_pattern"].default
 
         self._compiled_section_heading_pattern = re.compile(self.section_heading_pattern, re.MULTILINE)
-        
+
         self.include_text_in_metadata = include_text_in_metadata
 
 
@@ -60,7 +68,7 @@ class SectionNodeParser(NodeParser):
             # Maintain a stack of current parent nodes at each level.
             # Key: heading_level (int), Value: (node_id_of_parent, heading_id_string_of_parent)
             current_parent_nodes: Dict[int, tuple[str, str]] = {}
-            
+
             # Handle content *before* the first heading (Preamble)
             if matches and matches[0].start() > 0:
                 preamble_content = text[0:matches[0].start()].strip()
@@ -74,7 +82,7 @@ class SectionNodeParser(NodeParser):
                     }
                     if self.include_text_in_metadata:
                         metadata["full_section_content"] = preamble_content
-                    
+
                     preamble_node = TextNode(text=preamble_content, metadata=metadata, id_=node_id)
                     all_nodes.append(preamble_node)
                     # The preamble itself could be a parent for the first actual heading (level 1)
@@ -82,7 +90,7 @@ class SectionNodeParser(NodeParser):
 
 
             # Handle documents with no headings (treat entire document as one node)
-            elif not matches and text.strip(): 
+            elif not matches and text.strip():
                 node_id = str(uuid.uuid4())
                 metadata = {
                     "section": "Full Document Content",
@@ -101,7 +109,7 @@ class SectionNodeParser(NodeParser):
                 section_title_line = match.group(0).strip() # e.g., "   1.1     Study Aims"
                 section_heading_id = "" # e.g., "1.1"
                 heading_level = 0
-                
+
                 # Extract the numeric ID part (e.g., "1.1" from "   1.1     Study Aims")
                 # This regex extracts the sequence of numbers and dots.
                 numeric_part_match = re.search(r"(\d+(?:\.\d+)*)", section_title_line)
@@ -125,9 +133,9 @@ class SectionNodeParser(NodeParser):
                 for level in levels_to_remove:
                     del current_parent_nodes[level]
 
-                
+
                 # Extract the content associated with this section
-                start_content_idx = match.end()       
+                start_content_idx = match.end()
                 end_content_idx = len(text)
                 if i + 1 < len(matches): # Content ends before the next heading (if any)
                     end_content_idx = matches[i+1].start()
@@ -136,7 +144,7 @@ class SectionNodeParser(NodeParser):
                 if section_content:
                     node_id = str(uuid.uuid4()) # Generate a unique ID for this section's node
                     node_text = section_content # The actual text content of the section
-                    
+
                     metadata = {
                         "section": section_title_line, # Store the full heading line for display
                         "heading_id": section_heading_id, # e.g., "1.1", "4.1.1"
@@ -146,97 +154,145 @@ class SectionNodeParser(NodeParser):
                     }
                     if parent_node_id:
                         metadata["parent_node_id"] = parent_node_id # Link to its parent node's ID
-                    
+
                     if self.include_text_in_metadata:
                         metadata["full_section_content"] = node_text # Optional: full content in metadata
 
                     # Create the TextNode with the collected metadata and unique ID
                     node = TextNode(text=node_text, metadata=metadata, id_=node_id)
                     all_nodes.append(node)
-                    
+
                     # Add this node to the current_parent_nodes stack for its level
                     # It becomes a potential parent for subsequent lower-level headings
                     current_parent_nodes[heading_level] = (node_id, section_heading_id)
 
         return all_nodes
 
-# --- Your Usage Code (example) ---
 
-# 1. (Optional) Create a dummy PDF content for demonstration
-dummy_pdf_content = """
-Guideline for good clinical practice E6(R2)
-EMA/CHMP/ICH/135/1995 Page 7/68
+def get_dummy_pdf_content():
 
-This is some introductory text before the first formal section.
+    # 1. (Optional) Create a dummy PDF content for demonstration
+    dummy_pdf_content = """
+    Guideline for good clinical practice E6(R2)
+    EMA/CHMP/ICH/135/1995 Page 7/68
 
-1.  Glossary
-    1.1     Adverse Drug Reaction (ADR)
-In the pre-approval clinical experience with a new medicinal product or its new usages, particularly as
-the therapeutic dose(s) may not be established: all noxious and unintended responses to a medicinal
-product related to any dose should be considered adverse drug reactions. The phrase responses to a
-medicinal product means that a causal relationship between a medicinal product and an adverse event
-is at least a reasonable possibility, i.e. the relationship cannot be ruled out.
-Regarding marketed medicinal products: a response to a drug which is noxious and unintended and
-which occurs at doses normally used in man for prophylaxis, diagnosis, or therapy of diseases or for
-modification of physiological function (see the ICH Guideline for Clinical Safety Data Management:
-Definitions and Standards for Expedited Reporting).
-    1.2. Adverse Event (AE)
-Any untoward medical occurrence in a patient or clinical investigation subject administered a
-pharmaceutical product and which does not necessarily have a causal relationship with this treatment.
-An adverse event (AE) can therefore be any unfavourable and unintended sign (including an abnormal
-laboratory finding), symptom, or disease temporally associated with the use of a medicinal
-(investigational) product, whether or not related to the medicinal (investigational) product (see the
-ICH Guideline for Clinical Safety Data Management: Definitions and Standards for Expedited
-Reporting).
-1.3. Amendment (to the protocol)
-See Protocol Amendment.
-    4. Research Plan
-    4.1     Study Aims
-    Primary Aim: Investigate
-    4.1.1   Sub-Aim 1: First detailed point
-    4.1.2   Sub-Aim 2: Second detailed point
-    4.2     Methods
-    This section discusses the methods used in the study.
-1.4. Applicable regulatory requirement(s)
-Any law(s) and regulation(s) addressing the conduct of clinical trials of investigational products.
-"""
+    This is some introductory text before the first formal section.
 
-# IMPORTANT: Choose ONE of the following options:
-# Option A: Use a real PDF file
-# reader = SimpleDirectoryReader(input_files=["your_document.pdf"])
+    1.  Glossary
+        1.1     Adverse Drug Reaction (ADR)
+    In the pre-approval clinical experience with a new medicinal product or its new usages, particularly as
+    the therapeutic dose(s) may not be established: all noxious and unintended responses to a medicinal
+    product related to any dose should be considered adverse drug reactions. The phrase responses to a
+    medicinal product means that a causal relationship between a medicinal product and an adverse event
+    is at least a reasonable possibility, i.e. the relationship cannot be ruled out.
+    Regarding marketed medicinal products: a response to a drug which is noxious and unintended and
+    which occurs at doses normally used in man for prophylaxis, diagnosis, or therapy of diseases or for
+    modification of physiological function (see the ICH Guideline for Clinical Safety Data Management:
+    Definitions and Standards for Expedited Reporting).
+        1.2. Adverse Event (AE)
+    Any untoward medical occurrence in a patient or clinical investigation subject administered a
+    pharmaceutical product and which does not necessarily have a causal relationship with this treatment.
+    An adverse event (AE) can therefore be any unfavourable and unintended sign (including an abnormal
+    laboratory finding), symptom, or disease temporally associated with the use of a medicinal
+    (investigational) product, whether or not related to the medicinal (investigational) product (see the
+    ICH Guideline for Clinical Safety Data Management: Definitions and Standards for Expedited
+    Reporting).
+    1.3. Amendment (to the protocol)
+    See Protocol Amendment.
+        4. Research Plan
+        4.1     Study Aims
+        Primary Aim: Investigate
+        4.1.1   Sub-Aim 1: First detailed point
+        4.1.2   Sub-Aim 2: Second detailed point
+        4.2     Methods
+        This section discusses the methods used in the study.
+    1.4. Applicable regulatory requirement(s)
+    Any law(s) and regulation(s) addressing the conduct of clinical trials of investigational products.
+    """
+    return dummy_pdf_content
 
-# Option B: Use the dummy content for testing
-processed_content = "\n".join([line.strip() for line in dummy_pdf_content.strip().splitlines() if line.strip()])
-dummy_file_path = "temp_dummy_document.pdf"
-with open(dummy_file_path, "w", encoding="utf-8") as f:
-    f.write(processed_content)
-reader = SimpleDirectoryReader(input_files=["ich-gcp-r2-step-5.pdf"])
+def extract_section_from_data(file_name):
+    reader = SimpleDirectoryReader(input_files=[file_name])        
+    documents = reader.load_data()
 
-documents = reader.load_data()
+    # 3. Initialize your custom SectionNodeParser
+    section_parser = SectionNodeParser(
+        # The pattern is now handled by the Field default, but you can explicitly pass it here too:
+        # section_heading_pattern=r"^\s*(\d+(\.\d+)*)\s{1,}([^\n]*)$"
+    )
 
-# 3. Initialize your custom SectionNodeParser
-section_parser = SectionNodeParser(
-    # The pattern is now handled by the Field default, but you can explicitly pass it here too:
-    section_heading_pattern=r"^\s*(\d+(\.\d+)*)\s{1,}([^\n]*)$" 
-)
-
-# 4. Parse the nodes using your custom parser
-nodes = section_parser.get_nodes_from_documents(documents)
-
-# --- Print nodes to console to inspect hierarchical metadata ---
-print("--- Extracted Sections with Hierarchy ---")
-for i, node in enumerate(nodes):
-    print(f"--- Node {i+1} ---")
-    print(f"  Section Title: {node.metadata.get('section')}")
-    print(f"  Heading ID: {node.metadata.get('heading_id')}")
-    print(f"  Heading Level: {node.metadata.get('heading_level')}")
-    print(f"  Node ID: {node.metadata.get('node_id')}")
-    print(f"  Parent Node ID: {node.metadata.get('parent_node_id')}")
-    print(f"  Content (first 100 chars): {node.text[:100]}...")
-    print("-" * 50)
+    # 4. Parse the nodes using your custom parser
+    nodes = section_parser.get_nodes_from_documents(documents)
     
-nodes_as_dicts = [node.dict() for node in nodes]
+    # Print the entire node information
+    print("all nodes: ", nodes)
 
-# Clean up the dummy file
-# if 'dummy_file_path' in locals() and os.path.exists(dummy_file_path):
-#     os.remove(dummy_file_path)
+    # --- Print nodes to console to inspect hierarchical metadata ---
+    print("--- Extracted Sections with Hierarchy ---")
+    for i, node in enumerate(nodes):
+        print(f"--- Node {i+1} ---")
+        print(f"  Section Title: {node.metadata.get('section')}")
+        print(f"  Heading ID: {node.metadata.get('heading_id')}")
+        print(f"  Heading Level: {node.metadata.get('heading_level')}")
+        print(f"  Node ID: {node.metadata.get('node_id')}")
+        print(f"  Parent Node ID: {node.metadata.get('parent_node_id')}")
+        # print(f"  Content (first 100 chars): {node.text[:100]}...")
+        print("-" * 50)
+
+    nodes_as_dicts = [node.dict() for node in nodes]
+
+    # save the nodes to a JSON file
+    import json
+    # Extract the input file name without .pdf extension
+    if read_from_file:
+        input_file_name = os.path.splitext(file_name)[0]
+        out_file_name = f"parsed_nodes_{input_file_name}.json"
+    else:
+        out_file_name = "parsed_nodes_dummy_data.json"
+    with open(out_file_name, "w", encoding="utf-8") as f:
+        json.dump(nodes_as_dicts, f, indent=2, ensure_ascii=False)
+        
+    # --- Extract only particular portions from the full node and convert to JSON format ---
+    extracted_sections_json = []
+    for node in nodes:
+        section_data = {
+            "section_title": node.metadata.get("section", "N/A"),
+            "page_label": node.metadata.get("page_label", "N/A"),
+            "content": node.text,
+            # You can add other metadata fields if needed
+            # "id": node.id_
+        }
+        extracted_sections_json.append(section_data)
+    
+    # Save the extracted nodes to a JSON file
+    extract_json_filename = f"extracted_nodes_{out_file_name}.json"
+    with open(extract_json_filename, "w", encoding="utf-8") as f:
+        json.dump(extracted_sections_json, f, indent=2, ensure_ascii=False)   
+    
+    return
+
+
+if __name__ == "__main__":
+
+    read_from_file = True  # Set to False to use dummy content
+    # Choose above as True or False to control input source:
+    # Option A: Use the dummy content for testing
+
+    if read_from_file is False:
+        # 1. Get dummy PDF content for testing
+        dummy_pdf_content = get_dummy_pdf_content()
+        processed_content = "\n".join([line.strip() for line in dummy_pdf_content.strip().splitlines() if line.strip()])
+        file_name = "temp_dummy_document.pdf"
+        with open(file_name, "w", encoding="utf-8") as f:
+            f.write(processed_content)
+        
+        # Clean up the dummy file
+        if 'dummy_file_path' in locals() and os.path.exists(file_name):
+            os.remove(file_name)
+
+    elif read_from_file is True:
+
+        # Option B: Use the dummy content for testing
+        file_name = "ich-gcp-r2-step-5.pdf"
+    
+    extract_section_from_data(file_name)

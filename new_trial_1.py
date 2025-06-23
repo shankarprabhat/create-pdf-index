@@ -12,6 +12,9 @@ from llama_index.core.schema import TextNode, Document
 from typing import List, Optional
 from llama_index.core.bridge.pydantic import Field
 
+pattern1 = r"^((\d+\.)+\s*.*)$"
+# pattern2 
+
 class SectionNodeParser(NodeParser):
     """
     A custom NodeParser that splits a document into sections based on defined heading patterns.
@@ -101,7 +104,7 @@ documents = reader.load_data()
 
 # 3. Initialize your custom SectionNodeParser
 section_parser = SectionNodeParser(
-    section_heading_pattern=r"^((\d+\.)+\s*.*)$"
+    # section_heading_pattern=r"^((\d+\.)+\s*.*)$"
 )
 
 # 4. Parse the nodes using your custom parser
@@ -116,6 +119,11 @@ for i, node in enumerate(nodes):
     # print(f"Full content length: {len(node.text)} characters.")
     # print("-" * 40)
 
-# Clean up dummy file
-import os
-# os.remove("dummy_document.pdf")
+nodes_as_dicts = [node.dict() for node in nodes]
+
+# save the nodes to a JSON file
+import json
+out_file_name = "parsed_nodes_ich_gcp_new_trial_1.json"
+
+with open(out_file_name, "w", encoding="utf-8") as f:
+    json.dump(nodes_as_dicts, f, indent=2, ensure_ascii=False)

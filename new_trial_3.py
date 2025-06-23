@@ -1,22 +1,24 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue May 20 21:18:33 2025
+
+@author: Admin
+"""
+
 import re
+import json
 from llama_index.core import SimpleDirectoryReader, VectorStoreIndex
 from llama_index.core.node_parser import NodeParser
 from llama_index.core.schema import TextNode, Document
 from typing import List, Optional
-from llama_index.core.bridge.pydantic import Field # Import Field
+from llama_index.core.bridge.pydantic import Field
 
 class SectionNodeParser(NodeParser):
     """
     A custom NodeParser that splits a document into sections based on defined heading patterns.
     """
     section_heading_pattern: str = Field(
-        # default=r"^(Chapter\s+\d+:[\s\w]+|(\d+\.)+\s+[\w\s]+|((\d+\.)+\s*.*))$",
-        # default=r"^(Chapter\s+\d+:[\s\w]+|(\d+\.)+\s*.*)$",
-        # default=r"^(Chapter\s+\d+:[\s\w]+|(\d+\.)+\s*.*)|((\d+\.)+\s*[^\n]*)$",
-        # default=r"^((\d+\.)+\s*[\w\s\(\)\-]*)$",
-        # default=r"^\s*((\d+\.)+\s*[\w\s\(\)\-]*)$",
-        # default=r"^.*?((\d+\.)+\s*[\w\s\(\)\-]*)$",
-        default=r"^\s*(\d+(\.\s*)?)+\s*[^\n]*$",
+        default=r"^(Chapter\s+\d+:[\s\w]+|(\d+\.)+\s+[\w\s]+)$",
         description="Regular expression pattern to identify section headings."
     )
     include_text_in_metadata: bool = Field(
@@ -30,9 +32,8 @@ class SectionNodeParser(NodeParser):
         include_text_in_metadata: bool = True,
         **kwargs,
     ):
-        super().__init__(**kwargs) # Call parent __init__ first
+        super().__init__(**kwargs)
 
-        # Initialize the fields after super().__init__
         if section_heading_pattern is not None:
             self.section_heading_pattern = section_heading_pattern
         self._compiled_section_heading_pattern = re.compile(self.section_heading_pattern, re.MULTILINE)
@@ -72,7 +73,7 @@ class SectionNodeParser(NodeParser):
                         "page_label": doc.metadata.get("page_label", "N/A")
                     }
                     if self.include_text_in_metadata:
-                        metadata["full_section_content"] = node_text # Store content as well
+                        metadata["full_section_content"] = node_text
                     all_nodes.append(TextNode(text=node_text, metadata=metadata))
 
                 # Now process the current section heading itself as a section marker
@@ -94,46 +95,36 @@ class SectionNodeParser(NodeParser):
         return all_nodes
 
 # --- How to Use It ---
-
 # 2. Load the PDF document
 reader = SimpleDirectoryReader(input_files=["ich-gcp-r2-step-5.pdf"])
-# reader = SimpleDirectoryReader(input_files=["NITLT01.pdf"])  #AZD9291
-# reader = SimpleDirectoryReader(input_files=["AZD9291.pdf"])  #AZD9291
 documents = reader.load_data()
 
 # 3. Initialize your custom SectionNodeParser
-# NOTE: The regex needs to be precise for your document structure.
-# I've updated the default to better match the dummy content.
 section_parser = SectionNodeParser(
-    section_heading_pattern=r"^\s*(\d+(\.\s*)?)+\s*[^\n]*$"    #r"^(Chapter\s+\d+:\s+[\w\s]+|(\d+\.)+\s+[\w\s]+)$"
+    section_heading_pattern=r"^(Chapter\s+\d+:\s+[\w\s]+|(\d+\.)+\s+[\w\s]+)$"
 )
 
 # 4. Parse the nodes using your custom parser
-# The get_nodes_from_documents method is the public interface you should call
-nodes = section_parser.get_nodes_from_documents(documents) 
+nodes = section_parser.get_nodes_from_documents(documents)
 
-print(f"Total nodes created: {len(nodes)}\n")
+# --- Convert to JSON format ---
+extracted_sections_json = []
+for node in nodes:
+    section_data = {
+        "section_title": node.metadata.get("section", "N/A"),
+        "page_label": node.metadata.get("page_label", "N/A"),
+        "content": node.text,
+        # You can add other metadata fields if needed
+        # "id": node.id_
+    }
+    extracted_sections_json.append(section_data)
 
-for i, node in enumerate(nodes):
-    pass
-    print(f"--- Node {i+1} Section: {node.metadata.get('section')} ---")
-    # print(f"Section: {node.metadata.get('section')}")
-    # print(f"Content (first 200 chars): {node.text[:200]}...")
-    # print(f"Content length: {len(node.text)}")
-    # print("-" * 20)
+# Pretty print the JSON to console
+# print(json.dumps(extracted_sections_json, indent=2))
 
-nodes_as_dicts = [node.dict() for node in nodes]
+# Optionally, save to a JSON file
+output_json_filename = "extracted_nodes_ich_gcp_new_trial_3.json"
+with open(output_json_filename, "w", encoding="utf-8") as f:
+    json.dump(extracted_sections_json, f, indent=2, ensure_ascii=False)
 
-# 5. (Optional) Build an index and query
-# If you build an index, you can then query specific sections.
-# from llama_index.embeddings.openai import OpenAIEmbedding # Example embedding model
-# from llama_index.llms.openai import OpenAI # Example LLM
-
-# # Ensure you have an LLM and Embedding model configured if you want to run this part
-# # Settings.llm = OpenAI(model="gpt-3.5-turbo")
-# # Settings.embed_model = OpenAIEmbedding(model="text-embedding-ada-002")
-
-# # index = VectorStoreIndex(nodes)
-# # query_engine = index.as_query_engine()
-# # response = query_engine.query("What is the problem statement?")
-# # print(f"\nQuery Response: {response}")
+print(f"\nExtracted sections saved to {output_json_filename}")

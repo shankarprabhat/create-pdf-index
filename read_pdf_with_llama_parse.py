@@ -1,3 +1,4 @@
+# This file reads a pdf document with Llama parse library, and stores the data in local
 from llama_parse import LlamaParse
 
 
