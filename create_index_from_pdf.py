@@ -29,7 +29,9 @@ class SectionNodeParser(NodeParser):
         # default=r"^.*?((\d+\.)+\s*[\w\s\(\)\-]*)$",
         # default=r"^\s*(\d+(\.\s*)?)+\s*[^\n]*$",
         # default=r"^\s*(\d+(\.\s*)?)+\s*[^\n]*$"
-        default=r"^\s*(\d+(\.\d+)*)\s{1,}([^\n]*)$",
+        # default = r"^\s*(\d+(\.\d+)*)\s{1,}([^\n]*)$",
+        default = r"^\s*(\d+(\.\d+)*\.)\s{1,}([^\n]*)$",
+        # default = r"^\s*((?:\d+\.)*\d+)\s{1,}([^\n]*)$",
         description="Regular expression pattern to identify section headings."
     )
     include_text_in_metadata: bool = Field(
@@ -141,30 +143,31 @@ class SectionNodeParser(NodeParser):
                     end_content_idx = matches[i+1].start()
                 section_content = text[start_content_idx:end_content_idx].strip()
 
-                if section_content:
-                    node_id = str(uuid.uuid4()) # Generate a unique ID for this section's node
-                    node_text = section_content # The actual text content of the section
+                # if section_content:
+                # Add the section content    
+                node_id = str(uuid.uuid4()) # Generate a unique ID for this section's node
+                node_text = section_content # The actual text content of the section
 
-                    metadata = {
-                        "section": section_title_line, # Store the full heading line for display
-                        "heading_id": section_heading_id, # e.g., "1.1", "4.1.1"
-                        "heading_level": heading_level, # e.g., 1, 2, 3
-                        "page_label": doc.metadata.get("page_label", "N/A"),
-                        "node_id": node_id # Store its own unique ID
-                    }
-                    if parent_node_id:
-                        metadata["parent_node_id"] = parent_node_id # Link to its parent node's ID
+                metadata = {
+                    "section": section_title_line, # Store the full heading line for display
+                    "heading_id": section_heading_id, # e.g., "1.1", "4.1.1"
+                    "heading_level": heading_level, # e.g., 1, 2, 3
+                    "page_label": doc.metadata.get("page_label", "N/A"),
+                    "node_id": node_id # Store its own unique ID
+                }
+                if parent_node_id:
+                    metadata["parent_node_id"] = parent_node_id # Link to its parent node's ID
 
-                    if self.include_text_in_metadata:
-                        metadata["full_section_content"] = node_text # Optional: full content in metadata
+                if self.include_text_in_metadata:
+                    metadata["full_section_content"] = node_text # Optional: full content in metadata
 
-                    # Create the TextNode with the collected metadata and unique ID
-                    node = TextNode(text=node_text, metadata=metadata, id_=node_id)
-                    all_nodes.append(node)
+                # Create the TextNode with the collected metadata and unique ID
+                node = TextNode(text=node_text, metadata=metadata, id_=node_id)
+                all_nodes.append(node)
 
-                    # Add this node to the current_parent_nodes stack for its level
-                    # It becomes a potential parent for subsequent lower-level headings
-                    current_parent_nodes[heading_level] = (node_id, section_heading_id)
+                # Add this node to the current_parent_nodes stack for its level
+                # It becomes a potential parent for subsequent lower-level headings
+                current_parent_nodes[heading_level] = (node_id, section_heading_id)
 
         return all_nodes
 
@@ -234,8 +237,8 @@ def extract_section_from_data(file_name):
         print(f"  Section Title: {node.metadata.get('section')}")
         print(f"  Heading ID: {node.metadata.get('heading_id')}")
         print(f"  Heading Level: {node.metadata.get('heading_level')}")
-        print(f"  Node ID: {node.metadata.get('node_id')}")
-        print(f"  Parent Node ID: {node.metadata.get('parent_node_id')}")
+        # print(f"  Node ID: {node.metadata.get('node_id')}")
+        # print(f"  Parent Node ID: {node.metadata.get('parent_node_id')}")
         # print(f"  Content (first 100 chars): {node.text[:100]}...")
         print("-" * 50)
 
@@ -258,6 +261,10 @@ def extract_section_from_data(file_name):
         section_data = {
             "section_title": node.metadata.get("section", "N/A"),
             "page_label": node.metadata.get("page_label", "N/A"),
+            "heading_level": node.metadata.get("heading_level", 0),
+            "heading_id": node.metadata.get("heading_id", ""),
+            "parent_node_id": node.metadata.get("parent_node_id", None),
+            "node_id": node.metadata.get("node_id", str(uuid.uuid4())),
             "content": node.text,
             # You can add other metadata fields if needed
             # "id": node.id_
@@ -265,7 +272,7 @@ def extract_section_from_data(file_name):
         extracted_sections_json.append(section_data)
     
     # Save the extracted nodes to a JSON file
-    extract_json_filename = f"extracted_nodes_{out_file_name}.json"
+    extract_json_filename = f"extracted_nodes_{input_file_name}.json"
     with open(extract_json_filename, "w", encoding="utf-8") as f:
         json.dump(extracted_sections_json, f, indent=2, ensure_ascii=False)   
     
