@@ -301,5 +301,7 @@ if __name__ == "__main__":
 
         # Option B: Use the dummy content for testing
         file_name = "ich-gcp-r2-step-5.pdf"
+        file_name = "AZD9291.pdf"
+        file_name = "NITLT01.pdf"
     
     extract_section_from_data(file_name)
