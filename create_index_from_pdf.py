@@ -13,6 +13,7 @@ from typing import List, Optional, Dict
 from llama_index.core.bridge.pydantic import Field
 import os
 import uuid # Import uuid for generating unique IDs
+import glob
 
 class SectionNodeParser(NodeParser):
     """
@@ -300,8 +301,18 @@ if __name__ == "__main__":
     elif read_from_file is True:
 
         # Option B: Use the dummy content for testing
-        file_name = "ich-gcp-r2-step-5.pdf"
-        file_name = "AZD9291.pdf"
-        file_name = "NITLT01.pdf"
+        source = "source/"
+        file_name = source + "ich-gcp-r2-step-5.pdf"
+        file_name = source + "AZD9291.pdf"
+        file_name = source + "NITLT01.pdf"
     
-    extract_section_from_data(file_name)
+    # extract_section_from_data(file_name)
+    
+    # Get all the pdf files in the source directory
+    # if doing it in the current directory, use:
+    # source = "."
+    pdf_files = glob.glob("*.pdf")
+    # pdf_files = glob.glob(os.path.join('.', "*.pdf"))
+
+    for file_name in pdf_files:
+        extract_section_from_data(file_name)

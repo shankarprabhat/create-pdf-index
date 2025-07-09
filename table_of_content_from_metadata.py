@@ -77,8 +77,8 @@ def print_toc(toc_list, indent_level=0):
 
 # load the json_data from file
 fname = 'extracted_nodes_ich-gcp-r2-step-5.json'
-fname = 'extracted_nodes_AZD9291.json'
-fname = 'extracted_nodes_NITLT01.json'
+# fname = 'extracted_nodes_AZD9291.json'
+# fname = 'extracted_nodes_NITLT01.json'
 
 with open(fname, 'r') as f:
     json_data = json.load(f)
